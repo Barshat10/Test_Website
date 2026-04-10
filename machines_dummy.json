@@ -1,0 +1,6002 @@
+{
+  "1000001": {
+    "serial": "1000001",
+    "model": "FC-250",
+    "delivery_date": "2022-10-06",
+    "dealer": "Apex Trade Co."
+  },
+  "1000002": {
+    "serial": "1000002",
+    "model": "MC 40-1",
+    "delivery_date": "2014-07-19",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000003": {
+    "serial": "1000003",
+    "model": "FC-200",
+    "delivery_date": "2009-03-01",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000004": {
+    "serial": "1000004",
+    "model": "CF 1000",
+    "delivery_date": "2024-08-31",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000005": {
+    "serial": "1000005",
+    "model": "AC1",
+    "delivery_date": "2017-12-05",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000006": {
+    "serial": "1000006",
+    "model": "MC 40",
+    "delivery_date": "2018-02-05",
+    "dealer": "Apex Trade Co."
+  },
+  "1000007": {
+    "serial": "1000007",
+    "model": "FC-250",
+    "delivery_date": "2015-04-19",
+    "dealer": "Delta Tech Co."
+  },
+  "1000008": {
+    "serial": "1000008",
+    "model": "CF 1000",
+    "delivery_date": "2014-05-04",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000009": {
+    "serial": "1000009",
+    "model": "MC 40 L",
+    "delivery_date": "2024-03-19",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000010": {
+    "serial": "1000010",
+    "model": "CF 1000",
+    "delivery_date": "2014-02-12",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000011": {
+    "serial": "1000011",
+    "model": "FC-250",
+    "delivery_date": "2020-01-13",
+    "dealer": "Demo Technik AG"
+  },
+  "1000012": {
+    "serial": "1000012",
+    "model": "MC 40",
+    "delivery_date": "2019-12-24",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000013": {
+    "serial": "1000013",
+    "model": "CF 1000",
+    "delivery_date": "2019-06-05",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000014": {
+    "serial": "1000014",
+    "model": "MC 40-1",
+    "delivery_date": "2007-07-25",
+    "dealer": "West Equipment Inc."
+  },
+  "1000015": {
+    "serial": "1000015",
+    "model": "MC 40",
+    "delivery_date": "2014-11-11",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000016": {
+    "serial": "1000016",
+    "model": "AC1",
+    "delivery_date": "2019-05-25",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000017": {
+    "serial": "1000017",
+    "model": "MC 40 L",
+    "delivery_date": "2016-04-09",
+    "dealer": "West Equipment Inc."
+  },
+  "1000018": {
+    "serial": "1000018",
+    "model": "FC-250",
+    "delivery_date": "2023-09-05",
+    "dealer": "West Equipment Inc."
+  },
+  "1000019": {
+    "serial": "1000019",
+    "model": "CF 1000",
+    "delivery_date": "2008-10-31",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000020": {
+    "serial": "1000020",
+    "model": "CF 1000",
+    "delivery_date": "2016-07-26",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000021": {
+    "serial": "1000021",
+    "model": "MC 40",
+    "delivery_date": "2017-10-12",
+    "dealer": "Demo Technik AG"
+  },
+  "1000022": {
+    "serial": "1000022",
+    "model": "CF 1000",
+    "delivery_date": "2015-07-08",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000023": {
+    "serial": "1000023",
+    "model": "FC-250",
+    "delivery_date": "2022-07-07",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000024": {
+    "serial": "1000024",
+    "model": "MC 40-1",
+    "delivery_date": "2011-10-18",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000025": {
+    "serial": "1000025",
+    "model": "AC1",
+    "delivery_date": "2010-08-27",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000026": {
+    "serial": "1000026",
+    "model": "MC 40",
+    "delivery_date": "2014-07-28",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000027": {
+    "serial": "1000027",
+    "model": "AC1",
+    "delivery_date": "2008-10-26",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000028": {
+    "serial": "1000028",
+    "model": "FC-200",
+    "delivery_date": "2011-02-17",
+    "dealer": "West Equipment Inc."
+  },
+  "1000029": {
+    "serial": "1000029",
+    "model": "CF 1000",
+    "delivery_date": "2008-10-27",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000030": {
+    "serial": "1000030",
+    "model": "MC 40 L",
+    "delivery_date": "2017-05-31",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000031": {
+    "serial": "1000031",
+    "model": "FC-200",
+    "delivery_date": "2008-08-20",
+    "dealer": "Central Tools AG"
+  },
+  "1000032": {
+    "serial": "1000032",
+    "model": "CF 1000",
+    "delivery_date": "2017-10-12",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000033": {
+    "serial": "1000033",
+    "model": "CF 1000",
+    "delivery_date": "2019-04-14",
+    "dealer": "Delta Tech Co."
+  },
+  "1000034": {
+    "serial": "1000034",
+    "model": "MC 40 L",
+    "delivery_date": "2015-05-22",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000035": {
+    "serial": "1000035",
+    "model": "MC 40 L",
+    "delivery_date": "2020-12-09",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000036": {
+    "serial": "1000036",
+    "model": "AC1",
+    "delivery_date": "2017-05-22",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000037": {
+    "serial": "1000037",
+    "model": "MC 40",
+    "delivery_date": "2020-12-21",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000038": {
+    "serial": "1000038",
+    "model": "FC-250",
+    "delivery_date": "2011-02-10",
+    "dealer": "Delta Tech Co."
+  },
+  "1000039": {
+    "serial": "1000039",
+    "model": "CF 1000",
+    "delivery_date": "2007-06-20",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000040": {
+    "serial": "1000040",
+    "model": "MC 40-1",
+    "delivery_date": "2024-05-16",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000041": {
+    "serial": "1000041",
+    "model": "MC 40",
+    "delivery_date": "2015-02-03",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000042": {
+    "serial": "1000042",
+    "model": "CF 1000",
+    "delivery_date": "2021-01-29",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000043": {
+    "serial": "1000043",
+    "model": "CF 1000",
+    "delivery_date": "2022-07-04",
+    "dealer": "Central Tools AG"
+  },
+  "1000044": {
+    "serial": "1000044",
+    "model": "AC1",
+    "delivery_date": "2024-03-23",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000045": {
+    "serial": "1000045",
+    "model": "FC-200",
+    "delivery_date": "2017-07-24",
+    "dealer": "Delta Tech Co."
+  },
+  "1000046": {
+    "serial": "1000046",
+    "model": "FC-250",
+    "delivery_date": "2016-10-25",
+    "dealer": "Apex Trade Co."
+  },
+  "1000047": {
+    "serial": "1000047",
+    "model": "MC 40-1",
+    "delivery_date": "2011-01-05",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000048": {
+    "serial": "1000048",
+    "model": "MC 40 L",
+    "delivery_date": "2022-05-20",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000049": {
+    "serial": "1000049",
+    "model": "CF 1000",
+    "delivery_date": "2015-12-05",
+    "dealer": "Demo Technik AG"
+  },
+  "1000050": {
+    "serial": "1000050",
+    "model": "AC1",
+    "delivery_date": "2006-10-29",
+    "dealer": "Demo Technik AG"
+  },
+  "1000051": {
+    "serial": "1000051",
+    "model": "MC 40 L",
+    "delivery_date": "2009-09-12",
+    "dealer": "Nord Technik AB"
+  },
+  "1000052": {
+    "serial": "1000052",
+    "model": "MC 40 L",
+    "delivery_date": "2014-09-10",
+    "dealer": "Central Tools AG"
+  },
+  "1000053": {
+    "serial": "1000053",
+    "model": "FC-200",
+    "delivery_date": "2021-08-21",
+    "dealer": "Nord Technik AB"
+  },
+  "1000054": {
+    "serial": "1000054",
+    "model": "AC1",
+    "delivery_date": "2018-01-26",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000055": {
+    "serial": "1000055",
+    "model": "MC 40-1",
+    "delivery_date": "2007-09-29",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000056": {
+    "serial": "1000056",
+    "model": "MC 40-1",
+    "delivery_date": "2011-05-18",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000057": {
+    "serial": "1000057",
+    "model": "MC 40 L",
+    "delivery_date": "2013-01-02",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000058": {
+    "serial": "1000058",
+    "model": "CF 1000",
+    "delivery_date": "2013-11-24",
+    "dealer": "Nord Technik AB"
+  },
+  "1000059": {
+    "serial": "1000059",
+    "model": "MC 40 L",
+    "delivery_date": "2007-07-19",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000060": {
+    "serial": "1000060",
+    "model": "MC 40",
+    "delivery_date": "2015-07-07",
+    "dealer": "Apex Trade Co."
+  },
+  "1000061": {
+    "serial": "1000061",
+    "model": "FC-200",
+    "delivery_date": "2017-07-20",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000062": {
+    "serial": "1000062",
+    "model": "MC 40",
+    "delivery_date": "2010-12-17",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000063": {
+    "serial": "1000063",
+    "model": "MC 40",
+    "delivery_date": "2024-12-27",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000064": {
+    "serial": "1000064",
+    "model": "MC 40 L",
+    "delivery_date": "2009-12-15",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000065": {
+    "serial": "1000065",
+    "model": "FC-200",
+    "delivery_date": "2010-07-04",
+    "dealer": "Apex Trade Co."
+  },
+  "1000066": {
+    "serial": "1000066",
+    "model": "FC-250",
+    "delivery_date": "2013-02-19",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000067": {
+    "serial": "1000067",
+    "model": "CF 1000",
+    "delivery_date": "2017-07-28",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000068": {
+    "serial": "1000068",
+    "model": "AC1",
+    "delivery_date": "2022-02-15",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000069": {
+    "serial": "1000069",
+    "model": "MC 40 L",
+    "delivery_date": "2020-11-01",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000070": {
+    "serial": "1000070",
+    "model": "CF 1000",
+    "delivery_date": "2023-01-31",
+    "dealer": "Apex Trade Co."
+  },
+  "1000071": {
+    "serial": "1000071",
+    "model": "FC-200",
+    "delivery_date": "2018-07-19",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000072": {
+    "serial": "1000072",
+    "model": "CF 1000",
+    "delivery_date": "2022-09-19",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000073": {
+    "serial": "1000073",
+    "model": "MC 40",
+    "delivery_date": "2021-10-18",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000074": {
+    "serial": "1000074",
+    "model": "CF 1000",
+    "delivery_date": "2009-11-15",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000075": {
+    "serial": "1000075",
+    "model": "CF 1000",
+    "delivery_date": "2024-03-03",
+    "dealer": "Nord Technik AB"
+  },
+  "1000076": {
+    "serial": "1000076",
+    "model": "CF 1000",
+    "delivery_date": "2009-10-24",
+    "dealer": "Example Trade Co."
+  },
+  "1000077": {
+    "serial": "1000077",
+    "model": "FC-250",
+    "delivery_date": "2012-01-18",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000078": {
+    "serial": "1000078",
+    "model": "MC 40 L",
+    "delivery_date": "2005-12-01",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000079": {
+    "serial": "1000079",
+    "model": "MC 40-1",
+    "delivery_date": "2008-04-21",
+    "dealer": "Demo Technik AG"
+  },
+  "1000080": {
+    "serial": "1000080",
+    "model": "AC1",
+    "delivery_date": "2005-10-16",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000081": {
+    "serial": "1000081",
+    "model": "CF 1000",
+    "delivery_date": "2019-09-22",
+    "dealer": "Demo Technik AG"
+  },
+  "1000082": {
+    "serial": "1000082",
+    "model": "MC 40 L",
+    "delivery_date": "2020-09-24",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000083": {
+    "serial": "1000083",
+    "model": "FC-200",
+    "delivery_date": "2018-04-23",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000084": {
+    "serial": "1000084",
+    "model": "AC1",
+    "delivery_date": "2010-08-26",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000085": {
+    "serial": "1000085",
+    "model": "MC 40 L",
+    "delivery_date": "2015-12-23",
+    "dealer": "West Equipment Inc."
+  },
+  "1000086": {
+    "serial": "1000086",
+    "model": "AC1",
+    "delivery_date": "2015-07-23",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000087": {
+    "serial": "1000087",
+    "model": "FC-250",
+    "delivery_date": "2012-02-19",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000088": {
+    "serial": "1000088",
+    "model": "MC 40",
+    "delivery_date": "2014-06-06",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000089": {
+    "serial": "1000089",
+    "model": "MC 40 L",
+    "delivery_date": "2019-02-15",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000090": {
+    "serial": "1000090",
+    "model": "MC 40 L",
+    "delivery_date": "2009-02-12",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000091": {
+    "serial": "1000091",
+    "model": "CF 1000",
+    "delivery_date": "2008-02-26",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000092": {
+    "serial": "1000092",
+    "model": "MC 40-1",
+    "delivery_date": "2013-04-13",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000093": {
+    "serial": "1000093",
+    "model": "MC 40",
+    "delivery_date": "2018-01-01",
+    "dealer": "Example Trade Co."
+  },
+  "1000094": {
+    "serial": "1000094",
+    "model": "MC 40-1",
+    "delivery_date": "2023-07-18",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000095": {
+    "serial": "1000095",
+    "model": "MC 40 L",
+    "delivery_date": "2012-07-03",
+    "dealer": "Demo Technik AG"
+  },
+  "1000096": {
+    "serial": "1000096",
+    "model": "MC 40-1",
+    "delivery_date": "2021-05-13",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000097": {
+    "serial": "1000097",
+    "model": "MC 40",
+    "delivery_date": "2023-01-07",
+    "dealer": "West Equipment Inc."
+  },
+  "1000098": {
+    "serial": "1000098",
+    "model": "MC 40-1",
+    "delivery_date": "2023-01-01",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000099": {
+    "serial": "1000099",
+    "model": "FC-250",
+    "delivery_date": "2005-08-30",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000100": {
+    "serial": "1000100",
+    "model": "FC-250",
+    "delivery_date": "2011-08-16",
+    "dealer": "West Equipment Inc."
+  },
+  "1000101": {
+    "serial": "1000101",
+    "model": "FC-250",
+    "delivery_date": "2017-12-18",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000102": {
+    "serial": "1000102",
+    "model": "MC 40 L",
+    "delivery_date": "2018-08-01",
+    "dealer": "Example Trade Co."
+  },
+  "1000103": {
+    "serial": "1000103",
+    "model": "MC 40-1",
+    "delivery_date": "2005-08-15",
+    "dealer": "Central Tools AG"
+  },
+  "1000104": {
+    "serial": "1000104",
+    "model": "CF 1000",
+    "delivery_date": "2016-05-12",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000105": {
+    "serial": "1000105",
+    "model": "AC1",
+    "delivery_date": "2017-06-14",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000106": {
+    "serial": "1000106",
+    "model": "MC 40",
+    "delivery_date": "2014-07-20",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000107": {
+    "serial": "1000107",
+    "model": "CF 1000",
+    "delivery_date": "2020-05-03",
+    "dealer": "Nord Technik AB"
+  },
+  "1000108": {
+    "serial": "1000108",
+    "model": "FC-250",
+    "delivery_date": "2016-03-09",
+    "dealer": "Demo Technik AG"
+  },
+  "1000109": {
+    "serial": "1000109",
+    "model": "MC 40",
+    "delivery_date": "2017-02-22",
+    "dealer": "Delta Tech Co."
+  },
+  "1000110": {
+    "serial": "1000110",
+    "model": "MC 40-1",
+    "delivery_date": "2014-04-30",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000111": {
+    "serial": "1000111",
+    "model": "CF 1000",
+    "delivery_date": "2022-05-19",
+    "dealer": "Delta Tech Co."
+  },
+  "1000112": {
+    "serial": "1000112",
+    "model": "FC-200",
+    "delivery_date": "2006-12-23",
+    "dealer": "Delta Tech Co."
+  },
+  "1000113": {
+    "serial": "1000113",
+    "model": "MC 40-1",
+    "delivery_date": "2020-12-07",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000114": {
+    "serial": "1000114",
+    "model": "CF 1000",
+    "delivery_date": "2017-11-17",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000115": {
+    "serial": "1000115",
+    "model": "MC 40-1",
+    "delivery_date": "2017-05-18",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000116": {
+    "serial": "1000116",
+    "model": "FC-250",
+    "delivery_date": "2020-12-11",
+    "dealer": "Demo Technik AG"
+  },
+  "1000117": {
+    "serial": "1000117",
+    "model": "MC 40",
+    "delivery_date": "2014-10-24",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000118": {
+    "serial": "1000118",
+    "model": "FC-200",
+    "delivery_date": "2023-06-25",
+    "dealer": "Demo Technik AG"
+  },
+  "1000119": {
+    "serial": "1000119",
+    "model": "MC 40 L",
+    "delivery_date": "2013-09-05",
+    "dealer": "Delta Tech Co."
+  },
+  "1000120": {
+    "serial": "1000120",
+    "model": "MC 40 L",
+    "delivery_date": "2011-09-24",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000121": {
+    "serial": "1000121",
+    "model": "CF 1000",
+    "delivery_date": "2019-04-25",
+    "dealer": "Central Tools AG"
+  },
+  "1000122": {
+    "serial": "1000122",
+    "model": "FC-250",
+    "delivery_date": "2006-10-03",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000123": {
+    "serial": "1000123",
+    "model": "FC-250",
+    "delivery_date": "2005-09-20",
+    "dealer": "Example Trade Co."
+  },
+  "1000124": {
+    "serial": "1000124",
+    "model": "FC-200",
+    "delivery_date": "2013-10-08",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000125": {
+    "serial": "1000125",
+    "model": "FC-250",
+    "delivery_date": "2022-04-23",
+    "dealer": "Demo Technik AG"
+  },
+  "1000126": {
+    "serial": "1000126",
+    "model": "FC-250",
+    "delivery_date": "2020-03-13",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000127": {
+    "serial": "1000127",
+    "model": "MC 40",
+    "delivery_date": "2007-06-12",
+    "dealer": "Demo Technik AG"
+  },
+  "1000128": {
+    "serial": "1000128",
+    "model": "FC-250",
+    "delivery_date": "2017-10-19",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000129": {
+    "serial": "1000129",
+    "model": "FC-200",
+    "delivery_date": "2012-05-18",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000130": {
+    "serial": "1000130",
+    "model": "CF 1000",
+    "delivery_date": "2005-12-28",
+    "dealer": "Example Trade Co."
+  },
+  "1000131": {
+    "serial": "1000131",
+    "model": "MC 40",
+    "delivery_date": "2009-10-05",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000132": {
+    "serial": "1000132",
+    "model": "CF 1000",
+    "delivery_date": "2014-07-18",
+    "dealer": "West Equipment Inc."
+  },
+  "1000133": {
+    "serial": "1000133",
+    "model": "CF 1000",
+    "delivery_date": "2022-06-02",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000134": {
+    "serial": "1000134",
+    "model": "CF 1000",
+    "delivery_date": "2023-06-04",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000135": {
+    "serial": "1000135",
+    "model": "AC1",
+    "delivery_date": "2006-12-08",
+    "dealer": "Nord Technik AB"
+  },
+  "1000136": {
+    "serial": "1000136",
+    "model": "AC1",
+    "delivery_date": "2023-08-07",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000137": {
+    "serial": "1000137",
+    "model": "MC 40",
+    "delivery_date": "2023-04-04",
+    "dealer": "Demo Technik AG"
+  },
+  "1000138": {
+    "serial": "1000138",
+    "model": "MC 40",
+    "delivery_date": "2011-09-02",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000139": {
+    "serial": "1000139",
+    "model": "AC1",
+    "delivery_date": "2016-08-13",
+    "dealer": "Nord Technik AB"
+  },
+  "1000140": {
+    "serial": "1000140",
+    "model": "CF 1000",
+    "delivery_date": "2006-09-22",
+    "dealer": "Delta Tech Co."
+  },
+  "1000141": {
+    "serial": "1000141",
+    "model": "MC 40-1",
+    "delivery_date": "2016-10-19",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000142": {
+    "serial": "1000142",
+    "model": "MC 40-1",
+    "delivery_date": "2011-07-22",
+    "dealer": "Nord Technik AB"
+  },
+  "1000143": {
+    "serial": "1000143",
+    "model": "FC-250",
+    "delivery_date": "2022-07-11",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000144": {
+    "serial": "1000144",
+    "model": "FC-250",
+    "delivery_date": "2009-02-19",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000145": {
+    "serial": "1000145",
+    "model": "CF 1000",
+    "delivery_date": "2023-12-25",
+    "dealer": "Example Trade Co."
+  },
+  "1000146": {
+    "serial": "1000146",
+    "model": "CF 1000",
+    "delivery_date": "2012-03-24",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000147": {
+    "serial": "1000147",
+    "model": "FC-200",
+    "delivery_date": "2010-05-24",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000148": {
+    "serial": "1000148",
+    "model": "MC 40-1",
+    "delivery_date": "2024-11-29",
+    "dealer": "Delta Tech Co."
+  },
+  "1000149": {
+    "serial": "1000149",
+    "model": "MC 40 L",
+    "delivery_date": "2024-04-27",
+    "dealer": "Example Trade Co."
+  },
+  "1000150": {
+    "serial": "1000150",
+    "model": "MC 40-1",
+    "delivery_date": "2023-03-21",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000151": {
+    "serial": "1000151",
+    "model": "FC-200",
+    "delivery_date": "2022-05-06",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000152": {
+    "serial": "1000152",
+    "model": "AC1",
+    "delivery_date": "2010-12-21",
+    "dealer": "West Equipment Inc."
+  },
+  "1000153": {
+    "serial": "1000153",
+    "model": "MC 40-1",
+    "delivery_date": "2013-03-12",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000154": {
+    "serial": "1000154",
+    "model": "FC-250",
+    "delivery_date": "2012-02-11",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000155": {
+    "serial": "1000155",
+    "model": "CF 1000",
+    "delivery_date": "2005-08-28",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000156": {
+    "serial": "1000156",
+    "model": "FC-250",
+    "delivery_date": "2021-04-17",
+    "dealer": "Example Trade Co."
+  },
+  "1000157": {
+    "serial": "1000157",
+    "model": "AC1",
+    "delivery_date": "2007-08-15",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000158": {
+    "serial": "1000158",
+    "model": "FC-200",
+    "delivery_date": "2024-09-15",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000159": {
+    "serial": "1000159",
+    "model": "MC 40",
+    "delivery_date": "2013-10-21",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000160": {
+    "serial": "1000160",
+    "model": "MC 40-1",
+    "delivery_date": "2005-02-23",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000161": {
+    "serial": "1000161",
+    "model": "FC-200",
+    "delivery_date": "2013-01-19",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000162": {
+    "serial": "1000162",
+    "model": "CF 1000",
+    "delivery_date": "2015-01-22",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000163": {
+    "serial": "1000163",
+    "model": "MC 40",
+    "delivery_date": "2020-12-12",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000164": {
+    "serial": "1000164",
+    "model": "FC-250",
+    "delivery_date": "2012-01-10",
+    "dealer": "Delta Tech Co."
+  },
+  "1000165": {
+    "serial": "1000165",
+    "model": "MC 40",
+    "delivery_date": "2015-08-09",
+    "dealer": "Nord Technik AB"
+  },
+  "1000166": {
+    "serial": "1000166",
+    "model": "CF 1000",
+    "delivery_date": "2017-08-27",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000167": {
+    "serial": "1000167",
+    "model": "MC 40 L",
+    "delivery_date": "2021-04-12",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000168": {
+    "serial": "1000168",
+    "model": "FC-200",
+    "delivery_date": "2017-12-25",
+    "dealer": "Delta Tech Co."
+  },
+  "1000169": {
+    "serial": "1000169",
+    "model": "AC1",
+    "delivery_date": "2008-02-14",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000170": {
+    "serial": "1000170",
+    "model": "MC 40-1",
+    "delivery_date": "2009-09-27",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000171": {
+    "serial": "1000171",
+    "model": "FC-200",
+    "delivery_date": "2022-04-01",
+    "dealer": "Delta Tech Co."
+  },
+  "1000172": {
+    "serial": "1000172",
+    "model": "FC-250",
+    "delivery_date": "2015-11-15",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000173": {
+    "serial": "1000173",
+    "model": "FC-200",
+    "delivery_date": "2024-05-16",
+    "dealer": "Example Trade Co."
+  },
+  "1000174": {
+    "serial": "1000174",
+    "model": "CF 1000",
+    "delivery_date": "2024-05-30",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000175": {
+    "serial": "1000175",
+    "model": "CF 1000",
+    "delivery_date": "2020-09-21",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000176": {
+    "serial": "1000176",
+    "model": "MC 40",
+    "delivery_date": "2017-06-11",
+    "dealer": "Nord Technik AB"
+  },
+  "1000177": {
+    "serial": "1000177",
+    "model": "CF 1000",
+    "delivery_date": "2024-06-05",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000178": {
+    "serial": "1000178",
+    "model": "CF 1000",
+    "delivery_date": "2010-09-07",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000179": {
+    "serial": "1000179",
+    "model": "MC 40 L",
+    "delivery_date": "2013-04-18",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000180": {
+    "serial": "1000180",
+    "model": "FC-250",
+    "delivery_date": "2011-12-19",
+    "dealer": "Example Trade Co."
+  },
+  "1000181": {
+    "serial": "1000181",
+    "model": "AC1",
+    "delivery_date": "2012-03-30",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000182": {
+    "serial": "1000182",
+    "model": "MC 40 L",
+    "delivery_date": "2022-04-08",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000183": {
+    "serial": "1000183",
+    "model": "FC-250",
+    "delivery_date": "2008-05-05",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000184": {
+    "serial": "1000184",
+    "model": "FC-250",
+    "delivery_date": "2024-11-21",
+    "dealer": "Demo Technik AG"
+  },
+  "1000185": {
+    "serial": "1000185",
+    "model": "FC-250",
+    "delivery_date": "2022-09-25",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000186": {
+    "serial": "1000186",
+    "model": "MC 40 L",
+    "delivery_date": "2014-03-18",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000187": {
+    "serial": "1000187",
+    "model": "MC 40",
+    "delivery_date": "2019-09-06",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000188": {
+    "serial": "1000188",
+    "model": "FC-250",
+    "delivery_date": "2023-05-02",
+    "dealer": "Delta Tech Co."
+  },
+  "1000189": {
+    "serial": "1000189",
+    "model": "MC 40 L",
+    "delivery_date": "2013-10-08",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000190": {
+    "serial": "1000190",
+    "model": "CF 1000",
+    "delivery_date": "2014-11-27",
+    "dealer": "Nord Technik AB"
+  },
+  "1000191": {
+    "serial": "1000191",
+    "model": "FC-250",
+    "delivery_date": "2024-06-28",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000192": {
+    "serial": "1000192",
+    "model": "MC 40 L",
+    "delivery_date": "2007-02-23",
+    "dealer": "Delta Tech Co."
+  },
+  "1000193": {
+    "serial": "1000193",
+    "model": "MC 40-1",
+    "delivery_date": "2013-06-05",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000194": {
+    "serial": "1000194",
+    "model": "MC 40",
+    "delivery_date": "2008-08-15",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000195": {
+    "serial": "1000195",
+    "model": "MC 40",
+    "delivery_date": "2010-03-06",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000196": {
+    "serial": "1000196",
+    "model": "FC-250",
+    "delivery_date": "2023-03-23",
+    "dealer": "Apex Trade Co."
+  },
+  "1000197": {
+    "serial": "1000197",
+    "model": "MC 40-1",
+    "delivery_date": "2024-08-11",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000198": {
+    "serial": "1000198",
+    "model": "CF 1000",
+    "delivery_date": "2013-07-10",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000199": {
+    "serial": "1000199",
+    "model": "MC 40",
+    "delivery_date": "2023-03-21",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000200": {
+    "serial": "1000200",
+    "model": "CF 1000",
+    "delivery_date": "2020-12-28",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000201": {
+    "serial": "1000201",
+    "model": "CF 1000",
+    "delivery_date": "2020-06-14",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000202": {
+    "serial": "1000202",
+    "model": "FC-200",
+    "delivery_date": "2018-06-05",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000203": {
+    "serial": "1000203",
+    "model": "MC 40",
+    "delivery_date": "2016-04-01",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000204": {
+    "serial": "1000204",
+    "model": "FC-250",
+    "delivery_date": "2022-08-10",
+    "dealer": "Example Trade Co."
+  },
+  "1000205": {
+    "serial": "1000205",
+    "model": "CF 1000",
+    "delivery_date": "2009-07-13",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000206": {
+    "serial": "1000206",
+    "model": "FC-250",
+    "delivery_date": "2009-08-13",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000207": {
+    "serial": "1000207",
+    "model": "FC-200",
+    "delivery_date": "2006-04-18",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000208": {
+    "serial": "1000208",
+    "model": "AC1",
+    "delivery_date": "2008-12-22",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000209": {
+    "serial": "1000209",
+    "model": "FC-250",
+    "delivery_date": "2019-09-05",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000210": {
+    "serial": "1000210",
+    "model": "FC-200",
+    "delivery_date": "2007-10-21",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000211": {
+    "serial": "1000211",
+    "model": "FC-250",
+    "delivery_date": "2022-05-03",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000212": {
+    "serial": "1000212",
+    "model": "CF 1000",
+    "delivery_date": "2020-08-19",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000213": {
+    "serial": "1000213",
+    "model": "MC 40-1",
+    "delivery_date": "2022-06-12",
+    "dealer": "Example Trade Co."
+  },
+  "1000214": {
+    "serial": "1000214",
+    "model": "CF 1000",
+    "delivery_date": "2006-05-24",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000215": {
+    "serial": "1000215",
+    "model": "FC-200",
+    "delivery_date": "2021-07-29",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000216": {
+    "serial": "1000216",
+    "model": "CF 1000",
+    "delivery_date": "2007-06-04",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000217": {
+    "serial": "1000217",
+    "model": "FC-200",
+    "delivery_date": "2022-08-15",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000218": {
+    "serial": "1000218",
+    "model": "MC 40",
+    "delivery_date": "2006-07-19",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000219": {
+    "serial": "1000219",
+    "model": "AC1",
+    "delivery_date": "2012-04-21",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000220": {
+    "serial": "1000220",
+    "model": "FC-250",
+    "delivery_date": "2012-03-28",
+    "dealer": "Delta Tech Co."
+  },
+  "1000221": {
+    "serial": "1000221",
+    "model": "MC 40 L",
+    "delivery_date": "2020-02-16",
+    "dealer": "Central Tools AG"
+  },
+  "1000222": {
+    "serial": "1000222",
+    "model": "MC 40",
+    "delivery_date": "2006-01-26",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000223": {
+    "serial": "1000223",
+    "model": "FC-200",
+    "delivery_date": "2009-07-18",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000224": {
+    "serial": "1000224",
+    "model": "FC-200",
+    "delivery_date": "2018-09-29",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000225": {
+    "serial": "1000225",
+    "model": "MC 40-1",
+    "delivery_date": "2017-11-05",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000226": {
+    "serial": "1000226",
+    "model": "FC-250",
+    "delivery_date": "2019-05-17",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000227": {
+    "serial": "1000227",
+    "model": "AC1",
+    "delivery_date": "2016-01-18",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000228": {
+    "serial": "1000228",
+    "model": "MC 40 L",
+    "delivery_date": "2011-11-15",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000229": {
+    "serial": "1000229",
+    "model": "CF 1000",
+    "delivery_date": "2017-12-20",
+    "dealer": "Demo Technik AG"
+  },
+  "1000230": {
+    "serial": "1000230",
+    "model": "MC 40-1",
+    "delivery_date": "2005-03-08",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000231": {
+    "serial": "1000231",
+    "model": "FC-250",
+    "delivery_date": "2022-06-08",
+    "dealer": "West Equipment Inc."
+  },
+  "1000232": {
+    "serial": "1000232",
+    "model": "MC 40 L",
+    "delivery_date": "2005-06-01",
+    "dealer": "Central Tools AG"
+  },
+  "1000233": {
+    "serial": "1000233",
+    "model": "MC 40",
+    "delivery_date": "2014-02-17",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000234": {
+    "serial": "1000234",
+    "model": "CF 1000",
+    "delivery_date": "2011-03-09",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000235": {
+    "serial": "1000235",
+    "model": "MC 40",
+    "delivery_date": "2020-01-17",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000236": {
+    "serial": "1000236",
+    "model": "MC 40-1",
+    "delivery_date": "2009-08-26",
+    "dealer": "West Equipment Inc."
+  },
+  "1000237": {
+    "serial": "1000237",
+    "model": "CF 1000",
+    "delivery_date": "2014-08-15",
+    "dealer": "Nord Technik AB"
+  },
+  "1000238": {
+    "serial": "1000238",
+    "model": "MC 40-1",
+    "delivery_date": "2007-01-26",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000239": {
+    "serial": "1000239",
+    "model": "AC1",
+    "delivery_date": "2012-01-30",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000240": {
+    "serial": "1000240",
+    "model": "MC 40 L",
+    "delivery_date": "2015-10-21",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000241": {
+    "serial": "1000241",
+    "model": "AC1",
+    "delivery_date": "2011-01-21",
+    "dealer": "Apex Trade Co."
+  },
+  "1000242": {
+    "serial": "1000242",
+    "model": "AC1",
+    "delivery_date": "2022-11-21",
+    "dealer": "Delta Tech Co."
+  },
+  "1000243": {
+    "serial": "1000243",
+    "model": "FC-250",
+    "delivery_date": "2009-02-06",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000244": {
+    "serial": "1000244",
+    "model": "MC 40-1",
+    "delivery_date": "2020-07-24",
+    "dealer": "Demo Technik AG"
+  },
+  "1000245": {
+    "serial": "1000245",
+    "model": "MC 40-1",
+    "delivery_date": "2023-12-01",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000246": {
+    "serial": "1000246",
+    "model": "FC-250",
+    "delivery_date": "2022-11-08",
+    "dealer": "Nord Technik AB"
+  },
+  "1000247": {
+    "serial": "1000247",
+    "model": "MC 40",
+    "delivery_date": "2021-08-03",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000248": {
+    "serial": "1000248",
+    "model": "CF 1000",
+    "delivery_date": "2020-03-19",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000249": {
+    "serial": "1000249",
+    "model": "MC 40-1",
+    "delivery_date": "2022-01-11",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000250": {
+    "serial": "1000250",
+    "model": "AC1",
+    "delivery_date": "2018-09-13",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000251": {
+    "serial": "1000251",
+    "model": "CF 1000",
+    "delivery_date": "2007-12-02",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000252": {
+    "serial": "1000252",
+    "model": "FC-200",
+    "delivery_date": "2017-10-06",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000253": {
+    "serial": "1000253",
+    "model": "AC1",
+    "delivery_date": "2021-07-09",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000254": {
+    "serial": "1000254",
+    "model": "MC 40-1",
+    "delivery_date": "2011-05-11",
+    "dealer": "Apex Trade Co."
+  },
+  "1000255": {
+    "serial": "1000255",
+    "model": "MC 40",
+    "delivery_date": "2013-07-06",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000256": {
+    "serial": "1000256",
+    "model": "MC 40",
+    "delivery_date": "2020-08-18",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000257": {
+    "serial": "1000257",
+    "model": "CF 1000",
+    "delivery_date": "2024-12-19",
+    "dealer": "Demo Technik AG"
+  },
+  "1000258": {
+    "serial": "1000258",
+    "model": "FC-250",
+    "delivery_date": "2016-08-20",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000259": {
+    "serial": "1000259",
+    "model": "MC 40",
+    "delivery_date": "2013-02-21",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000260": {
+    "serial": "1000260",
+    "model": "MC 40-1",
+    "delivery_date": "2012-07-07",
+    "dealer": "West Equipment Inc."
+  },
+  "1000261": {
+    "serial": "1000261",
+    "model": "AC1",
+    "delivery_date": "2007-06-23",
+    "dealer": "Central Tools AG"
+  },
+  "1000262": {
+    "serial": "1000262",
+    "model": "MC 40-1",
+    "delivery_date": "2017-09-28",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000263": {
+    "serial": "1000263",
+    "model": "MC 40 L",
+    "delivery_date": "2020-02-20",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000264": {
+    "serial": "1000264",
+    "model": "MC 40",
+    "delivery_date": "2005-02-04",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000265": {
+    "serial": "1000265",
+    "model": "MC 40 L",
+    "delivery_date": "2008-02-18",
+    "dealer": "Example Trade Co."
+  },
+  "1000266": {
+    "serial": "1000266",
+    "model": "FC-200",
+    "delivery_date": "2017-12-30",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000267": {
+    "serial": "1000267",
+    "model": "FC-250",
+    "delivery_date": "2024-07-14",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000268": {
+    "serial": "1000268",
+    "model": "FC-250",
+    "delivery_date": "2006-12-17",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000269": {
+    "serial": "1000269",
+    "model": "MC 40 L",
+    "delivery_date": "2010-08-15",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000270": {
+    "serial": "1000270",
+    "model": "MC 40",
+    "delivery_date": "2021-03-26",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000271": {
+    "serial": "1000271",
+    "model": "AC1",
+    "delivery_date": "2010-02-08",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000272": {
+    "serial": "1000272",
+    "model": "CF 1000",
+    "delivery_date": "2017-03-26",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000273": {
+    "serial": "1000273",
+    "model": "CF 1000",
+    "delivery_date": "2021-02-03",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000274": {
+    "serial": "1000274",
+    "model": "MC 40 L",
+    "delivery_date": "2021-03-28",
+    "dealer": "Demo Technik AG"
+  },
+  "1000275": {
+    "serial": "1000275",
+    "model": "MC 40-1",
+    "delivery_date": "2016-11-09",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000276": {
+    "serial": "1000276",
+    "model": "MC 40 L",
+    "delivery_date": "2017-09-08",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000277": {
+    "serial": "1000277",
+    "model": "MC 40",
+    "delivery_date": "2022-08-19",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000278": {
+    "serial": "1000278",
+    "model": "MC 40",
+    "delivery_date": "2017-09-12",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000279": {
+    "serial": "1000279",
+    "model": "MC 40-1",
+    "delivery_date": "2022-06-28",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000280": {
+    "serial": "1000280",
+    "model": "AC1",
+    "delivery_date": "2007-03-17",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000281": {
+    "serial": "1000281",
+    "model": "FC-250",
+    "delivery_date": "2017-07-03",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000282": {
+    "serial": "1000282",
+    "model": "CF 1000",
+    "delivery_date": "2019-08-11",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000283": {
+    "serial": "1000283",
+    "model": "FC-200",
+    "delivery_date": "2021-10-02",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000284": {
+    "serial": "1000284",
+    "model": "MC 40",
+    "delivery_date": "2011-10-14",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000285": {
+    "serial": "1000285",
+    "model": "FC-250",
+    "delivery_date": "2008-08-25",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000286": {
+    "serial": "1000286",
+    "model": "MC 40",
+    "delivery_date": "2021-11-03",
+    "dealer": "Nord Technik AB"
+  },
+  "1000287": {
+    "serial": "1000287",
+    "model": "MC 40",
+    "delivery_date": "2015-12-27",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000288": {
+    "serial": "1000288",
+    "model": "AC1",
+    "delivery_date": "2020-05-23",
+    "dealer": "Nord Technik AB"
+  },
+  "1000289": {
+    "serial": "1000289",
+    "model": "FC-250",
+    "delivery_date": "2009-12-09",
+    "dealer": "Example Trade Co."
+  },
+  "1000290": {
+    "serial": "1000290",
+    "model": "AC1",
+    "delivery_date": "2007-05-17",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000291": {
+    "serial": "1000291",
+    "model": "FC-200",
+    "delivery_date": "2015-08-30",
+    "dealer": "Nord Technik AB"
+  },
+  "1000292": {
+    "serial": "1000292",
+    "model": "CF 1000",
+    "delivery_date": "2009-07-30",
+    "dealer": "Central Tools AG"
+  },
+  "1000293": {
+    "serial": "1000293",
+    "model": "FC-250",
+    "delivery_date": "2007-09-12",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000294": {
+    "serial": "1000294",
+    "model": "FC-200",
+    "delivery_date": "2020-07-01",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000295": {
+    "serial": "1000295",
+    "model": "CF 1000",
+    "delivery_date": "2024-11-15",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000296": {
+    "serial": "1000296",
+    "model": "MC 40-1",
+    "delivery_date": "2021-12-25",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000297": {
+    "serial": "1000297",
+    "model": "FC-250",
+    "delivery_date": "2020-04-22",
+    "dealer": "Delta Tech Co."
+  },
+  "1000298": {
+    "serial": "1000298",
+    "model": "CF 1000",
+    "delivery_date": "2005-04-23",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000299": {
+    "serial": "1000299",
+    "model": "FC-200",
+    "delivery_date": "2013-06-06",
+    "dealer": "Central Tools AG"
+  },
+  "1000300": {
+    "serial": "1000300",
+    "model": "FC-200",
+    "delivery_date": "2010-02-11",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000301": {
+    "serial": "1000301",
+    "model": "AC1",
+    "delivery_date": "2018-01-11",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000302": {
+    "serial": "1000302",
+    "model": "FC-200",
+    "delivery_date": "2020-04-15",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000303": {
+    "serial": "1000303",
+    "model": "AC1",
+    "delivery_date": "2006-10-29",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000304": {
+    "serial": "1000304",
+    "model": "MC 40 L",
+    "delivery_date": "2009-04-08",
+    "dealer": "Example Trade Co."
+  },
+  "1000305": {
+    "serial": "1000305",
+    "model": "CF 1000",
+    "delivery_date": "2021-01-02",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000306": {
+    "serial": "1000306",
+    "model": "MC 40 L",
+    "delivery_date": "2014-05-13",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000307": {
+    "serial": "1000307",
+    "model": "MC 40 L",
+    "delivery_date": "2019-09-11",
+    "dealer": "Example Trade Co."
+  },
+  "1000308": {
+    "serial": "1000308",
+    "model": "FC-250",
+    "delivery_date": "2024-07-21",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000309": {
+    "serial": "1000309",
+    "model": "MC 40 L",
+    "delivery_date": "2016-12-16",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000310": {
+    "serial": "1000310",
+    "model": "MC 40-1",
+    "delivery_date": "2023-08-30",
+    "dealer": "Delta Tech Co."
+  },
+  "1000311": {
+    "serial": "1000311",
+    "model": "FC-250",
+    "delivery_date": "2010-03-16",
+    "dealer": "Central Tools AG"
+  },
+  "1000312": {
+    "serial": "1000312",
+    "model": "MC 40",
+    "delivery_date": "2024-04-02",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000313": {
+    "serial": "1000313",
+    "model": "MC 40 L",
+    "delivery_date": "2005-01-27",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000314": {
+    "serial": "1000314",
+    "model": "FC-250",
+    "delivery_date": "2013-04-03",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000315": {
+    "serial": "1000315",
+    "model": "MC 40 L",
+    "delivery_date": "2007-10-09",
+    "dealer": "Central Tools AG"
+  },
+  "1000316": {
+    "serial": "1000316",
+    "model": "MC 40",
+    "delivery_date": "2011-01-24",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000317": {
+    "serial": "1000317",
+    "model": "FC-200",
+    "delivery_date": "2016-09-21",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000318": {
+    "serial": "1000318",
+    "model": "FC-200",
+    "delivery_date": "2020-09-21",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000319": {
+    "serial": "1000319",
+    "model": "AC1",
+    "delivery_date": "2014-01-30",
+    "dealer": "Nord Technik AB"
+  },
+  "1000320": {
+    "serial": "1000320",
+    "model": "FC-250",
+    "delivery_date": "2015-10-18",
+    "dealer": "Example Trade Co."
+  },
+  "1000321": {
+    "serial": "1000321",
+    "model": "MC 40 L",
+    "delivery_date": "2014-02-22",
+    "dealer": "Delta Tech Co."
+  },
+  "1000322": {
+    "serial": "1000322",
+    "model": "FC-250",
+    "delivery_date": "2010-03-01",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000323": {
+    "serial": "1000323",
+    "model": "FC-200",
+    "delivery_date": "2010-02-18",
+    "dealer": "Central Tools AG"
+  },
+  "1000324": {
+    "serial": "1000324",
+    "model": "FC-250",
+    "delivery_date": "2014-03-27",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000325": {
+    "serial": "1000325",
+    "model": "MC 40 L",
+    "delivery_date": "2020-09-19",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000326": {
+    "serial": "1000326",
+    "model": "MC 40",
+    "delivery_date": "2005-08-11",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000327": {
+    "serial": "1000327",
+    "model": "MC 40",
+    "delivery_date": "2019-02-09",
+    "dealer": "Demo Technik AG"
+  },
+  "1000328": {
+    "serial": "1000328",
+    "model": "MC 40-1",
+    "delivery_date": "2010-05-29",
+    "dealer": "Apex Trade Co."
+  },
+  "1000329": {
+    "serial": "1000329",
+    "model": "MC 40",
+    "delivery_date": "2008-01-17",
+    "dealer": "West Equipment Inc."
+  },
+  "1000330": {
+    "serial": "1000330",
+    "model": "MC 40 L",
+    "delivery_date": "2023-10-26",
+    "dealer": "West Equipment Inc."
+  },
+  "1000331": {
+    "serial": "1000331",
+    "model": "FC-250",
+    "delivery_date": "2014-02-26",
+    "dealer": "Apex Trade Co."
+  },
+  "1000332": {
+    "serial": "1000332",
+    "model": "AC1",
+    "delivery_date": "2022-10-27",
+    "dealer": "Example Trade Co."
+  },
+  "1000333": {
+    "serial": "1000333",
+    "model": "MC 40-1",
+    "delivery_date": "2017-07-25",
+    "dealer": "Central Tools AG"
+  },
+  "1000334": {
+    "serial": "1000334",
+    "model": "FC-200",
+    "delivery_date": "2016-02-10",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000335": {
+    "serial": "1000335",
+    "model": "MC 40 L",
+    "delivery_date": "2009-06-12",
+    "dealer": "Apex Trade Co."
+  },
+  "1000336": {
+    "serial": "1000336",
+    "model": "MC 40",
+    "delivery_date": "2013-07-28",
+    "dealer": "Demo Technik AG"
+  },
+  "1000337": {
+    "serial": "1000337",
+    "model": "FC-200",
+    "delivery_date": "2014-10-28",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000338": {
+    "serial": "1000338",
+    "model": "MC 40",
+    "delivery_date": "2024-11-27",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000339": {
+    "serial": "1000339",
+    "model": "MC 40-1",
+    "delivery_date": "2022-02-01",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000340": {
+    "serial": "1000340",
+    "model": "AC1",
+    "delivery_date": "2022-04-29",
+    "dealer": "Nord Technik AB"
+  },
+  "1000341": {
+    "serial": "1000341",
+    "model": "CF 1000",
+    "delivery_date": "2009-09-10",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000342": {
+    "serial": "1000342",
+    "model": "MC 40 L",
+    "delivery_date": "2006-05-02",
+    "dealer": "West Equipment Inc."
+  },
+  "1000343": {
+    "serial": "1000343",
+    "model": "AC1",
+    "delivery_date": "2013-02-16",
+    "dealer": "Nord Technik AB"
+  },
+  "1000344": {
+    "serial": "1000344",
+    "model": "MC 40 L",
+    "delivery_date": "2007-12-01",
+    "dealer": "West Equipment Inc."
+  },
+  "1000345": {
+    "serial": "1000345",
+    "model": "MC 40 L",
+    "delivery_date": "2012-09-08",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000346": {
+    "serial": "1000346",
+    "model": "CF 1000",
+    "delivery_date": "2005-04-29",
+    "dealer": "Example Trade Co."
+  },
+  "1000347": {
+    "serial": "1000347",
+    "model": "MC 40",
+    "delivery_date": "2016-05-31",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000348": {
+    "serial": "1000348",
+    "model": "MC 40",
+    "delivery_date": "2016-11-29",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000349": {
+    "serial": "1000349",
+    "model": "CF 1000",
+    "delivery_date": "2015-03-03",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000350": {
+    "serial": "1000350",
+    "model": "AC1",
+    "delivery_date": "2016-11-15",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000351": {
+    "serial": "1000351",
+    "model": "MC 40 L",
+    "delivery_date": "2016-03-03",
+    "dealer": "Demo Technik AG"
+  },
+  "1000352": {
+    "serial": "1000352",
+    "model": "MC 40 L",
+    "delivery_date": "2019-05-02",
+    "dealer": "Example Trade Co."
+  },
+  "1000353": {
+    "serial": "1000353",
+    "model": "FC-250",
+    "delivery_date": "2009-05-31",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000354": {
+    "serial": "1000354",
+    "model": "MC 40 L",
+    "delivery_date": "2015-10-16",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000355": {
+    "serial": "1000355",
+    "model": "CF 1000",
+    "delivery_date": "2016-09-30",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000356": {
+    "serial": "1000356",
+    "model": "MC 40-1",
+    "delivery_date": "2020-09-25",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000357": {
+    "serial": "1000357",
+    "model": "MC 40",
+    "delivery_date": "2020-01-02",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000358": {
+    "serial": "1000358",
+    "model": "FC-200",
+    "delivery_date": "2020-10-03",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000359": {
+    "serial": "1000359",
+    "model": "FC-250",
+    "delivery_date": "2022-01-28",
+    "dealer": "Apex Trade Co."
+  },
+  "1000360": {
+    "serial": "1000360",
+    "model": "FC-200",
+    "delivery_date": "2014-06-01",
+    "dealer": "Delta Tech Co."
+  },
+  "1000361": {
+    "serial": "1000361",
+    "model": "MC 40",
+    "delivery_date": "2017-05-09",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000362": {
+    "serial": "1000362",
+    "model": "CF 1000",
+    "delivery_date": "2016-02-10",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000363": {
+    "serial": "1000363",
+    "model": "MC 40-1",
+    "delivery_date": "2008-11-23",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000364": {
+    "serial": "1000364",
+    "model": "FC-250",
+    "delivery_date": "2016-10-29",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000365": {
+    "serial": "1000365",
+    "model": "AC1",
+    "delivery_date": "2011-05-12",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000366": {
+    "serial": "1000366",
+    "model": "MC 40",
+    "delivery_date": "2017-03-03",
+    "dealer": "Delta Tech Co."
+  },
+  "1000367": {
+    "serial": "1000367",
+    "model": "FC-250",
+    "delivery_date": "2016-09-13",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000368": {
+    "serial": "1000368",
+    "model": "AC1",
+    "delivery_date": "2020-08-29",
+    "dealer": "Apex Trade Co."
+  },
+  "1000369": {
+    "serial": "1000369",
+    "model": "FC-200",
+    "delivery_date": "2020-03-03",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000370": {
+    "serial": "1000370",
+    "model": "MC 40-1",
+    "delivery_date": "2023-06-02",
+    "dealer": "West Equipment Inc."
+  },
+  "1000371": {
+    "serial": "1000371",
+    "model": "FC-250",
+    "delivery_date": "2022-12-05",
+    "dealer": "Nord Technik AB"
+  },
+  "1000372": {
+    "serial": "1000372",
+    "model": "MC 40",
+    "delivery_date": "2016-08-22",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000373": {
+    "serial": "1000373",
+    "model": "MC 40 L",
+    "delivery_date": "2024-01-19",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000374": {
+    "serial": "1000374",
+    "model": "MC 40-1",
+    "delivery_date": "2007-05-17",
+    "dealer": "Central Tools AG"
+  },
+  "1000375": {
+    "serial": "1000375",
+    "model": "MC 40 L",
+    "delivery_date": "2024-03-05",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000376": {
+    "serial": "1000376",
+    "model": "MC 40",
+    "delivery_date": "2007-07-11",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000377": {
+    "serial": "1000377",
+    "model": "FC-200",
+    "delivery_date": "2023-03-26",
+    "dealer": "Demo Technik AG"
+  },
+  "1000378": {
+    "serial": "1000378",
+    "model": "FC-250",
+    "delivery_date": "2022-08-24",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000379": {
+    "serial": "1000379",
+    "model": "AC1",
+    "delivery_date": "2005-06-24",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000380": {
+    "serial": "1000380",
+    "model": "FC-200",
+    "delivery_date": "2021-03-15",
+    "dealer": "West Equipment Inc."
+  },
+  "1000381": {
+    "serial": "1000381",
+    "model": "MC 40-1",
+    "delivery_date": "2011-02-17",
+    "dealer": "Nord Technik AB"
+  },
+  "1000382": {
+    "serial": "1000382",
+    "model": "MC 40",
+    "delivery_date": "2005-08-14",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000383": {
+    "serial": "1000383",
+    "model": "AC1",
+    "delivery_date": "2012-06-30",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000384": {
+    "serial": "1000384",
+    "model": "MC 40 L",
+    "delivery_date": "2013-06-11",
+    "dealer": "Delta Tech Co."
+  },
+  "1000385": {
+    "serial": "1000385",
+    "model": "FC-200",
+    "delivery_date": "2021-03-31",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000386": {
+    "serial": "1000386",
+    "model": "CF 1000",
+    "delivery_date": "2020-11-22",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000387": {
+    "serial": "1000387",
+    "model": "MC 40",
+    "delivery_date": "2013-02-01",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000388": {
+    "serial": "1000388",
+    "model": "MC 40-1",
+    "delivery_date": "2006-04-15",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000389": {
+    "serial": "1000389",
+    "model": "MC 40",
+    "delivery_date": "2011-08-01",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000390": {
+    "serial": "1000390",
+    "model": "MC 40",
+    "delivery_date": "2010-02-21",
+    "dealer": "West Equipment Inc."
+  },
+  "1000391": {
+    "serial": "1000391",
+    "model": "AC1",
+    "delivery_date": "2018-06-11",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000392": {
+    "serial": "1000392",
+    "model": "AC1",
+    "delivery_date": "2012-01-09",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000393": {
+    "serial": "1000393",
+    "model": "MC 40",
+    "delivery_date": "2021-04-09",
+    "dealer": "Apex Trade Co."
+  },
+  "1000394": {
+    "serial": "1000394",
+    "model": "MC 40-1",
+    "delivery_date": "2021-08-20",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000395": {
+    "serial": "1000395",
+    "model": "CF 1000",
+    "delivery_date": "2022-09-09",
+    "dealer": "Demo Technik AG"
+  },
+  "1000396": {
+    "serial": "1000396",
+    "model": "AC1",
+    "delivery_date": "2020-12-29",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000397": {
+    "serial": "1000397",
+    "model": "MC 40 L",
+    "delivery_date": "2021-08-13",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000398": {
+    "serial": "1000398",
+    "model": "FC-250",
+    "delivery_date": "2019-08-24",
+    "dealer": "Apex Trade Co."
+  },
+  "1000399": {
+    "serial": "1000399",
+    "model": "AC1",
+    "delivery_date": "2007-03-18",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000400": {
+    "serial": "1000400",
+    "model": "AC1",
+    "delivery_date": "2013-09-05",
+    "dealer": "Example Trade Co."
+  },
+  "1000401": {
+    "serial": "1000401",
+    "model": "FC-200",
+    "delivery_date": "2020-03-26",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000402": {
+    "serial": "1000402",
+    "model": "FC-250",
+    "delivery_date": "2009-02-07",
+    "dealer": "West Equipment Inc."
+  },
+  "1000403": {
+    "serial": "1000403",
+    "model": "CF 1000",
+    "delivery_date": "2015-03-19",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000404": {
+    "serial": "1000404",
+    "model": "FC-200",
+    "delivery_date": "2019-05-17",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000405": {
+    "serial": "1000405",
+    "model": "FC-250",
+    "delivery_date": "2006-02-04",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000406": {
+    "serial": "1000406",
+    "model": "MC 40",
+    "delivery_date": "2019-02-03",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000407": {
+    "serial": "1000407",
+    "model": "AC1",
+    "delivery_date": "2016-09-15",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000408": {
+    "serial": "1000408",
+    "model": "FC-250",
+    "delivery_date": "2024-11-22",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000409": {
+    "serial": "1000409",
+    "model": "MC 40 L",
+    "delivery_date": "2020-12-25",
+    "dealer": "Demo Technik AG"
+  },
+  "1000410": {
+    "serial": "1000410",
+    "model": "MC 40",
+    "delivery_date": "2012-08-01",
+    "dealer": "Example Trade Co."
+  },
+  "1000411": {
+    "serial": "1000411",
+    "model": "MC 40 L",
+    "delivery_date": "2013-12-01",
+    "dealer": "Example Trade Co."
+  },
+  "1000412": {
+    "serial": "1000412",
+    "model": "AC1",
+    "delivery_date": "2005-10-28",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000413": {
+    "serial": "1000413",
+    "model": "CF 1000",
+    "delivery_date": "2008-10-29",
+    "dealer": "Apex Trade Co."
+  },
+  "1000414": {
+    "serial": "1000414",
+    "model": "FC-200",
+    "delivery_date": "2024-05-24",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000415": {
+    "serial": "1000415",
+    "model": "AC1",
+    "delivery_date": "2015-06-07",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000416": {
+    "serial": "1000416",
+    "model": "AC1",
+    "delivery_date": "2013-09-16",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000417": {
+    "serial": "1000417",
+    "model": "MC 40",
+    "delivery_date": "2015-03-10",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000418": {
+    "serial": "1000418",
+    "model": "MC 40 L",
+    "delivery_date": "2010-03-21",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000419": {
+    "serial": "1000419",
+    "model": "MC 40-1",
+    "delivery_date": "2005-03-01",
+    "dealer": "Apex Trade Co."
+  },
+  "1000420": {
+    "serial": "1000420",
+    "model": "MC 40 L",
+    "delivery_date": "2023-10-22",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000421": {
+    "serial": "1000421",
+    "model": "MC 40-1",
+    "delivery_date": "2022-04-23",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000422": {
+    "serial": "1000422",
+    "model": "MC 40-1",
+    "delivery_date": "2020-04-30",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000423": {
+    "serial": "1000423",
+    "model": "FC-200",
+    "delivery_date": "2013-01-26",
+    "dealer": "Nord Technik AB"
+  },
+  "1000424": {
+    "serial": "1000424",
+    "model": "MC 40",
+    "delivery_date": "2016-04-05",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000425": {
+    "serial": "1000425",
+    "model": "MC 40 L",
+    "delivery_date": "2009-09-29",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000426": {
+    "serial": "1000426",
+    "model": "MC 40-1",
+    "delivery_date": "2019-10-25",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000427": {
+    "serial": "1000427",
+    "model": "FC-200",
+    "delivery_date": "2009-06-30",
+    "dealer": "Delta Tech Co."
+  },
+  "1000428": {
+    "serial": "1000428",
+    "model": "FC-250",
+    "delivery_date": "2012-02-03",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000429": {
+    "serial": "1000429",
+    "model": "MC 40",
+    "delivery_date": "2016-02-08",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000430": {
+    "serial": "1000430",
+    "model": "CF 1000",
+    "delivery_date": "2015-05-12",
+    "dealer": "Demo Technik AG"
+  },
+  "1000431": {
+    "serial": "1000431",
+    "model": "MC 40",
+    "delivery_date": "2006-01-03",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000432": {
+    "serial": "1000432",
+    "model": "AC1",
+    "delivery_date": "2005-01-07",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000433": {
+    "serial": "1000433",
+    "model": "CF 1000",
+    "delivery_date": "2011-08-19",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000434": {
+    "serial": "1000434",
+    "model": "MC 40-1",
+    "delivery_date": "2016-03-06",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000435": {
+    "serial": "1000435",
+    "model": "CF 1000",
+    "delivery_date": "2005-08-23",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000436": {
+    "serial": "1000436",
+    "model": "FC-200",
+    "delivery_date": "2012-12-30",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000437": {
+    "serial": "1000437",
+    "model": "FC-200",
+    "delivery_date": "2007-07-05",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000438": {
+    "serial": "1000438",
+    "model": "MC 40",
+    "delivery_date": "2021-05-23",
+    "dealer": "Demo Technik AG"
+  },
+  "1000439": {
+    "serial": "1000439",
+    "model": "MC 40-1",
+    "delivery_date": "2008-11-05",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000440": {
+    "serial": "1000440",
+    "model": "CF 1000",
+    "delivery_date": "2009-04-06",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000441": {
+    "serial": "1000441",
+    "model": "FC-200",
+    "delivery_date": "2022-05-10",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000442": {
+    "serial": "1000442",
+    "model": "FC-250",
+    "delivery_date": "2015-01-05",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000443": {
+    "serial": "1000443",
+    "model": "MC 40-1",
+    "delivery_date": "2010-02-13",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000444": {
+    "serial": "1000444",
+    "model": "MC 40-1",
+    "delivery_date": "2009-02-02",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000445": {
+    "serial": "1000445",
+    "model": "MC 40",
+    "delivery_date": "2018-08-05",
+    "dealer": "Example Trade Co."
+  },
+  "1000446": {
+    "serial": "1000446",
+    "model": "MC 40-1",
+    "delivery_date": "2018-03-10",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000447": {
+    "serial": "1000447",
+    "model": "CF 1000",
+    "delivery_date": "2005-04-09",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000448": {
+    "serial": "1000448",
+    "model": "MC 40-1",
+    "delivery_date": "2013-10-09",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000449": {
+    "serial": "1000449",
+    "model": "AC1",
+    "delivery_date": "2005-04-28",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000450": {
+    "serial": "1000450",
+    "model": "FC-200",
+    "delivery_date": "2012-05-06",
+    "dealer": "Demo Technik AG"
+  },
+  "1000451": {
+    "serial": "1000451",
+    "model": "FC-200",
+    "delivery_date": "2013-06-30",
+    "dealer": "Apex Trade Co."
+  },
+  "1000452": {
+    "serial": "1000452",
+    "model": "FC-200",
+    "delivery_date": "2014-04-17",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000453": {
+    "serial": "1000453",
+    "model": "FC-250",
+    "delivery_date": "2016-01-17",
+    "dealer": "West Equipment Inc."
+  },
+  "1000454": {
+    "serial": "1000454",
+    "model": "MC 40-1",
+    "delivery_date": "2010-03-28",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000455": {
+    "serial": "1000455",
+    "model": "MC 40-1",
+    "delivery_date": "2008-07-04",
+    "dealer": "Central Tools AG"
+  },
+  "1000456": {
+    "serial": "1000456",
+    "model": "AC1",
+    "delivery_date": "2011-08-11",
+    "dealer": "Demo Technik AG"
+  },
+  "1000457": {
+    "serial": "1000457",
+    "model": "MC 40",
+    "delivery_date": "2009-05-07",
+    "dealer": "Example Trade Co."
+  },
+  "1000458": {
+    "serial": "1000458",
+    "model": "AC1",
+    "delivery_date": "2005-07-06",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000459": {
+    "serial": "1000459",
+    "model": "CF 1000",
+    "delivery_date": "2021-06-25",
+    "dealer": "West Equipment Inc."
+  },
+  "1000460": {
+    "serial": "1000460",
+    "model": "MC 40 L",
+    "delivery_date": "2005-12-22",
+    "dealer": "Example Trade Co."
+  },
+  "1000461": {
+    "serial": "1000461",
+    "model": "AC1",
+    "delivery_date": "2006-06-06",
+    "dealer": "Example Trade Co."
+  },
+  "1000462": {
+    "serial": "1000462",
+    "model": "CF 1000",
+    "delivery_date": "2009-08-18",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000463": {
+    "serial": "1000463",
+    "model": "MC 40-1",
+    "delivery_date": "2012-04-19",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000464": {
+    "serial": "1000464",
+    "model": "MC 40",
+    "delivery_date": "2022-01-15",
+    "dealer": "Example Trade Co."
+  },
+  "1000465": {
+    "serial": "1000465",
+    "model": "FC-250",
+    "delivery_date": "2021-05-24",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000466": {
+    "serial": "1000466",
+    "model": "AC1",
+    "delivery_date": "2005-08-08",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000467": {
+    "serial": "1000467",
+    "model": "MC 40 L",
+    "delivery_date": "2023-04-09",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000468": {
+    "serial": "1000468",
+    "model": "MC 40-1",
+    "delivery_date": "2013-05-07",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000469": {
+    "serial": "1000469",
+    "model": "AC1",
+    "delivery_date": "2017-02-04",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000470": {
+    "serial": "1000470",
+    "model": "AC1",
+    "delivery_date": "2018-01-11",
+    "dealer": "Central Tools AG"
+  },
+  "1000471": {
+    "serial": "1000471",
+    "model": "FC-200",
+    "delivery_date": "2022-09-07",
+    "dealer": "Demo Technik AG"
+  },
+  "1000472": {
+    "serial": "1000472",
+    "model": "MC 40-1",
+    "delivery_date": "2006-07-25",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000473": {
+    "serial": "1000473",
+    "model": "CF 1000",
+    "delivery_date": "2023-05-12",
+    "dealer": "Example Trade Co."
+  },
+  "1000474": {
+    "serial": "1000474",
+    "model": "MC 40 L",
+    "delivery_date": "2023-05-10",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000475": {
+    "serial": "1000475",
+    "model": "MC 40 L",
+    "delivery_date": "2017-08-21",
+    "dealer": "Demo Technik AG"
+  },
+  "1000476": {
+    "serial": "1000476",
+    "model": "MC 40-1",
+    "delivery_date": "2005-12-31",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000477": {
+    "serial": "1000477",
+    "model": "MC 40-1",
+    "delivery_date": "2023-11-07",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000478": {
+    "serial": "1000478",
+    "model": "FC-200",
+    "delivery_date": "2014-10-19",
+    "dealer": "Demo Technik AG"
+  },
+  "1000479": {
+    "serial": "1000479",
+    "model": "MC 40",
+    "delivery_date": "2008-03-07",
+    "dealer": "Central Tools AG"
+  },
+  "1000480": {
+    "serial": "1000480",
+    "model": "AC1",
+    "delivery_date": "2007-05-17",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000481": {
+    "serial": "1000481",
+    "model": "AC1",
+    "delivery_date": "2013-12-17",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000482": {
+    "serial": "1000482",
+    "model": "MC 40 L",
+    "delivery_date": "2012-04-26",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000483": {
+    "serial": "1000483",
+    "model": "MC 40",
+    "delivery_date": "2024-06-12",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000484": {
+    "serial": "1000484",
+    "model": "FC-200",
+    "delivery_date": "2006-12-21",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000485": {
+    "serial": "1000485",
+    "model": "MC 40 L",
+    "delivery_date": "2020-04-11",
+    "dealer": "Delta Tech Co."
+  },
+  "1000486": {
+    "serial": "1000486",
+    "model": "MC 40 L",
+    "delivery_date": "2018-01-04",
+    "dealer": "Central Tools AG"
+  },
+  "1000487": {
+    "serial": "1000487",
+    "model": "MC 40 L",
+    "delivery_date": "2008-07-18",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000488": {
+    "serial": "1000488",
+    "model": "MC 40 L",
+    "delivery_date": "2018-06-25",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000489": {
+    "serial": "1000489",
+    "model": "CF 1000",
+    "delivery_date": "2011-12-19",
+    "dealer": "Central Tools AG"
+  },
+  "1000490": {
+    "serial": "1000490",
+    "model": "FC-250",
+    "delivery_date": "2010-07-16",
+    "dealer": "Central Tools AG"
+  },
+  "1000491": {
+    "serial": "1000491",
+    "model": "MC 40-1",
+    "delivery_date": "2009-12-13",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000492": {
+    "serial": "1000492",
+    "model": "FC-200",
+    "delivery_date": "2017-06-05",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000493": {
+    "serial": "1000493",
+    "model": "MC 40 L",
+    "delivery_date": "2019-01-01",
+    "dealer": "West Equipment Inc."
+  },
+  "1000494": {
+    "serial": "1000494",
+    "model": "MC 40",
+    "delivery_date": "2024-03-17",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000495": {
+    "serial": "1000495",
+    "model": "AC1",
+    "delivery_date": "2012-10-16",
+    "dealer": "Apex Trade Co."
+  },
+  "1000496": {
+    "serial": "1000496",
+    "model": "AC1",
+    "delivery_date": "2009-04-07",
+    "dealer": "Example Trade Co."
+  },
+  "1000497": {
+    "serial": "1000497",
+    "model": "AC1",
+    "delivery_date": "2005-04-14",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000498": {
+    "serial": "1000498",
+    "model": "FC-250",
+    "delivery_date": "2015-08-04",
+    "dealer": "West Equipment Inc."
+  },
+  "1000499": {
+    "serial": "1000499",
+    "model": "MC 40",
+    "delivery_date": "2011-12-24",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000500": {
+    "serial": "1000500",
+    "model": "FC-250",
+    "delivery_date": "2013-07-23",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000501": {
+    "serial": "1000501",
+    "model": "MC 40-1",
+    "delivery_date": "2024-09-27",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000502": {
+    "serial": "1000502",
+    "model": "MC 40 L",
+    "delivery_date": "2010-08-27",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000503": {
+    "serial": "1000503",
+    "model": "CF 1000",
+    "delivery_date": "2005-01-30",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000504": {
+    "serial": "1000504",
+    "model": "FC-250",
+    "delivery_date": "2015-12-18",
+    "dealer": "Delta Tech Co."
+  },
+  "1000505": {
+    "serial": "1000505",
+    "model": "CF 1000",
+    "delivery_date": "2023-01-17",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000506": {
+    "serial": "1000506",
+    "model": "MC 40",
+    "delivery_date": "2020-11-10",
+    "dealer": "Apex Trade Co."
+  },
+  "1000507": {
+    "serial": "1000507",
+    "model": "MC 40",
+    "delivery_date": "2008-12-06",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000508": {
+    "serial": "1000508",
+    "model": "MC 40",
+    "delivery_date": "2010-01-22",
+    "dealer": "Central Tools AG"
+  },
+  "1000509": {
+    "serial": "1000509",
+    "model": "MC 40-1",
+    "delivery_date": "2017-11-18",
+    "dealer": "Example Trade Co."
+  },
+  "1000510": {
+    "serial": "1000510",
+    "model": "MC 40",
+    "delivery_date": "2006-02-06",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000511": {
+    "serial": "1000511",
+    "model": "AC1",
+    "delivery_date": "2014-06-09",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000512": {
+    "serial": "1000512",
+    "model": "MC 40",
+    "delivery_date": "2010-12-23",
+    "dealer": "Demo Technik AG"
+  },
+  "1000513": {
+    "serial": "1000513",
+    "model": "MC 40 L",
+    "delivery_date": "2006-06-08",
+    "dealer": "Example Trade Co."
+  },
+  "1000514": {
+    "serial": "1000514",
+    "model": "MC 40-1",
+    "delivery_date": "2023-11-10",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000515": {
+    "serial": "1000515",
+    "model": "CF 1000",
+    "delivery_date": "2014-07-26",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000516": {
+    "serial": "1000516",
+    "model": "AC1",
+    "delivery_date": "2006-03-08",
+    "dealer": "Delta Tech Co."
+  },
+  "1000517": {
+    "serial": "1000517",
+    "model": "AC1",
+    "delivery_date": "2022-06-02",
+    "dealer": "Apex Trade Co."
+  },
+  "1000518": {
+    "serial": "1000518",
+    "model": "MC 40 L",
+    "delivery_date": "2006-05-16",
+    "dealer": "Example Trade Co."
+  },
+  "1000519": {
+    "serial": "1000519",
+    "model": "FC-250",
+    "delivery_date": "2006-05-11",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000520": {
+    "serial": "1000520",
+    "model": "CF 1000",
+    "delivery_date": "2011-08-14",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000521": {
+    "serial": "1000521",
+    "model": "MC 40",
+    "delivery_date": "2005-08-31",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000522": {
+    "serial": "1000522",
+    "model": "FC-200",
+    "delivery_date": "2017-01-22",
+    "dealer": "Apex Trade Co."
+  },
+  "1000523": {
+    "serial": "1000523",
+    "model": "MC 40-1",
+    "delivery_date": "2005-12-08",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000524": {
+    "serial": "1000524",
+    "model": "FC-200",
+    "delivery_date": "2007-06-17",
+    "dealer": "Nord Technik AB"
+  },
+  "1000525": {
+    "serial": "1000525",
+    "model": "MC 40",
+    "delivery_date": "2023-03-02",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000526": {
+    "serial": "1000526",
+    "model": "CF 1000",
+    "delivery_date": "2020-04-09",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000527": {
+    "serial": "1000527",
+    "model": "CF 1000",
+    "delivery_date": "2019-11-19",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000528": {
+    "serial": "1000528",
+    "model": "MC 40",
+    "delivery_date": "2023-12-04",
+    "dealer": "Delta Tech Co."
+  },
+  "1000529": {
+    "serial": "1000529",
+    "model": "AC1",
+    "delivery_date": "2015-03-15",
+    "dealer": "West Equipment Inc."
+  },
+  "1000530": {
+    "serial": "1000530",
+    "model": "MC 40 L",
+    "delivery_date": "2008-11-14",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000531": {
+    "serial": "1000531",
+    "model": "CF 1000",
+    "delivery_date": "2018-02-12",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000532": {
+    "serial": "1000532",
+    "model": "AC1",
+    "delivery_date": "2013-08-26",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000533": {
+    "serial": "1000533",
+    "model": "FC-200",
+    "delivery_date": "2006-04-10",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000534": {
+    "serial": "1000534",
+    "model": "FC-250",
+    "delivery_date": "2015-07-04",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000535": {
+    "serial": "1000535",
+    "model": "MC 40 L",
+    "delivery_date": "2010-12-27",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000536": {
+    "serial": "1000536",
+    "model": "FC-200",
+    "delivery_date": "2012-05-08",
+    "dealer": "Apex Trade Co."
+  },
+  "1000537": {
+    "serial": "1000537",
+    "model": "MC 40",
+    "delivery_date": "2015-04-20",
+    "dealer": "Demo Technik AG"
+  },
+  "1000538": {
+    "serial": "1000538",
+    "model": "FC-250",
+    "delivery_date": "2011-02-26",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000539": {
+    "serial": "1000539",
+    "model": "AC1",
+    "delivery_date": "2006-02-02",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000540": {
+    "serial": "1000540",
+    "model": "CF 1000",
+    "delivery_date": "2011-09-06",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000541": {
+    "serial": "1000541",
+    "model": "MC 40 L",
+    "delivery_date": "2014-02-20",
+    "dealer": "Delta Tech Co."
+  },
+  "1000542": {
+    "serial": "1000542",
+    "model": "FC-200",
+    "delivery_date": "2023-09-02",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000543": {
+    "serial": "1000543",
+    "model": "CF 1000",
+    "delivery_date": "2014-04-21",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000544": {
+    "serial": "1000544",
+    "model": "AC1",
+    "delivery_date": "2010-06-12",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000545": {
+    "serial": "1000545",
+    "model": "MC 40",
+    "delivery_date": "2018-12-19",
+    "dealer": "Nord Technik AB"
+  },
+  "1000546": {
+    "serial": "1000546",
+    "model": "MC 40 L",
+    "delivery_date": "2006-03-02",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000547": {
+    "serial": "1000547",
+    "model": "MC 40",
+    "delivery_date": "2009-01-13",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000548": {
+    "serial": "1000548",
+    "model": "FC-250",
+    "delivery_date": "2024-03-09",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000549": {
+    "serial": "1000549",
+    "model": "FC-200",
+    "delivery_date": "2021-10-25",
+    "dealer": "Delta Tech Co."
+  },
+  "1000550": {
+    "serial": "1000550",
+    "model": "MC 40-1",
+    "delivery_date": "2008-11-01",
+    "dealer": "Central Tools AG"
+  },
+  "1000551": {
+    "serial": "1000551",
+    "model": "MC 40 L",
+    "delivery_date": "2008-10-17",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000552": {
+    "serial": "1000552",
+    "model": "FC-250",
+    "delivery_date": "2005-11-11",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000553": {
+    "serial": "1000553",
+    "model": "MC 40-1",
+    "delivery_date": "2011-08-24",
+    "dealer": "Apex Trade Co."
+  },
+  "1000554": {
+    "serial": "1000554",
+    "model": "MC 40 L",
+    "delivery_date": "2016-01-17",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000555": {
+    "serial": "1000555",
+    "model": "FC-200",
+    "delivery_date": "2012-08-24",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000556": {
+    "serial": "1000556",
+    "model": "FC-200",
+    "delivery_date": "2012-05-04",
+    "dealer": "Nord Technik AB"
+  },
+  "1000557": {
+    "serial": "1000557",
+    "model": "AC1",
+    "delivery_date": "2016-10-07",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000558": {
+    "serial": "1000558",
+    "model": "AC1",
+    "delivery_date": "2013-05-04",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000559": {
+    "serial": "1000559",
+    "model": "FC-250",
+    "delivery_date": "2011-02-23",
+    "dealer": "Example Trade Co."
+  },
+  "1000560": {
+    "serial": "1000560",
+    "model": "MC 40-1",
+    "delivery_date": "2017-02-10",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000561": {
+    "serial": "1000561",
+    "model": "MC 40",
+    "delivery_date": "2009-07-28",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000562": {
+    "serial": "1000562",
+    "model": "MC 40-1",
+    "delivery_date": "2016-04-17",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000563": {
+    "serial": "1000563",
+    "model": "FC-200",
+    "delivery_date": "2005-10-02",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000564": {
+    "serial": "1000564",
+    "model": "MC 40",
+    "delivery_date": "2012-04-09",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000565": {
+    "serial": "1000565",
+    "model": "MC 40",
+    "delivery_date": "2013-02-28",
+    "dealer": "Example Trade Co."
+  },
+  "1000566": {
+    "serial": "1000566",
+    "model": "CF 1000",
+    "delivery_date": "2017-11-19",
+    "dealer": "Example Trade Co."
+  },
+  "1000567": {
+    "serial": "1000567",
+    "model": "FC-200",
+    "delivery_date": "2010-07-25",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000568": {
+    "serial": "1000568",
+    "model": "MC 40-1",
+    "delivery_date": "2024-02-28",
+    "dealer": "Nord Technik AB"
+  },
+  "1000569": {
+    "serial": "1000569",
+    "model": "AC1",
+    "delivery_date": "2006-02-27",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000570": {
+    "serial": "1000570",
+    "model": "MC 40-1",
+    "delivery_date": "2012-01-16",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000571": {
+    "serial": "1000571",
+    "model": "FC-250",
+    "delivery_date": "2012-02-15",
+    "dealer": "Delta Tech Co."
+  },
+  "1000572": {
+    "serial": "1000572",
+    "model": "MC 40-1",
+    "delivery_date": "2015-05-01",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000573": {
+    "serial": "1000573",
+    "model": "CF 1000",
+    "delivery_date": "2011-02-23",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000574": {
+    "serial": "1000574",
+    "model": "FC-200",
+    "delivery_date": "2015-01-11",
+    "dealer": "Nord Technik AB"
+  },
+  "1000575": {
+    "serial": "1000575",
+    "model": "FC-200",
+    "delivery_date": "2015-11-21",
+    "dealer": "Central Tools AG"
+  },
+  "1000576": {
+    "serial": "1000576",
+    "model": "FC-200",
+    "delivery_date": "2014-03-05",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000577": {
+    "serial": "1000577",
+    "model": "FC-200",
+    "delivery_date": "2018-07-04",
+    "dealer": "Example Trade Co."
+  },
+  "1000578": {
+    "serial": "1000578",
+    "model": "MC 40 L",
+    "delivery_date": "2019-09-30",
+    "dealer": "Central Tools AG"
+  },
+  "1000579": {
+    "serial": "1000579",
+    "model": "MC 40-1",
+    "delivery_date": "2007-05-31",
+    "dealer": "Apex Trade Co."
+  },
+  "1000580": {
+    "serial": "1000580",
+    "model": "MC 40",
+    "delivery_date": "2015-01-05",
+    "dealer": "West Equipment Inc."
+  },
+  "1000581": {
+    "serial": "1000581",
+    "model": "FC-250",
+    "delivery_date": "2012-09-18",
+    "dealer": "Delta Tech Co."
+  },
+  "1000582": {
+    "serial": "1000582",
+    "model": "CF 1000",
+    "delivery_date": "2024-02-28",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000583": {
+    "serial": "1000583",
+    "model": "CF 1000",
+    "delivery_date": "2012-12-01",
+    "dealer": "Nord Technik AB"
+  },
+  "1000584": {
+    "serial": "1000584",
+    "model": "AC1",
+    "delivery_date": "2010-06-27",
+    "dealer": "Nord Technik AB"
+  },
+  "1000585": {
+    "serial": "1000585",
+    "model": "MC 40",
+    "delivery_date": "2022-07-28",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000586": {
+    "serial": "1000586",
+    "model": "MC 40",
+    "delivery_date": "2024-06-12",
+    "dealer": "Nord Technik AB"
+  },
+  "1000587": {
+    "serial": "1000587",
+    "model": "FC-200",
+    "delivery_date": "2012-12-17",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000588": {
+    "serial": "1000588",
+    "model": "FC-250",
+    "delivery_date": "2007-02-12",
+    "dealer": "Apex Trade Co."
+  },
+  "1000589": {
+    "serial": "1000589",
+    "model": "MC 40 L",
+    "delivery_date": "2011-10-09",
+    "dealer": "Central Tools AG"
+  },
+  "1000590": {
+    "serial": "1000590",
+    "model": "FC-200",
+    "delivery_date": "2012-05-18",
+    "dealer": "Demo Technik AG"
+  },
+  "1000591": {
+    "serial": "1000591",
+    "model": "MC 40 L",
+    "delivery_date": "2005-03-21",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000592": {
+    "serial": "1000592",
+    "model": "FC-250",
+    "delivery_date": "2006-07-21",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000593": {
+    "serial": "1000593",
+    "model": "CF 1000",
+    "delivery_date": "2009-01-20",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000594": {
+    "serial": "1000594",
+    "model": "FC-250",
+    "delivery_date": "2020-03-03",
+    "dealer": "Nord Technik AB"
+  },
+  "1000595": {
+    "serial": "1000595",
+    "model": "CF 1000",
+    "delivery_date": "2012-07-31",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000596": {
+    "serial": "1000596",
+    "model": "MC 40 L",
+    "delivery_date": "2011-03-08",
+    "dealer": "Demo Technik AG"
+  },
+  "1000597": {
+    "serial": "1000597",
+    "model": "CF 1000",
+    "delivery_date": "2024-06-23",
+    "dealer": "West Equipment Inc."
+  },
+  "1000598": {
+    "serial": "1000598",
+    "model": "FC-200",
+    "delivery_date": "2017-06-05",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000599": {
+    "serial": "1000599",
+    "model": "FC-200",
+    "delivery_date": "2018-02-20",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000600": {
+    "serial": "1000600",
+    "model": "MC 40 L",
+    "delivery_date": "2024-08-31",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000601": {
+    "serial": "1000601",
+    "model": "FC-200",
+    "delivery_date": "2010-10-25",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000602": {
+    "serial": "1000602",
+    "model": "MC 40 L",
+    "delivery_date": "2016-01-31",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000603": {
+    "serial": "1000603",
+    "model": "FC-250",
+    "delivery_date": "2011-04-04",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000604": {
+    "serial": "1000604",
+    "model": "AC1",
+    "delivery_date": "2011-10-27",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000605": {
+    "serial": "1000605",
+    "model": "FC-250",
+    "delivery_date": "2012-06-29",
+    "dealer": "Demo Technik AG"
+  },
+  "1000606": {
+    "serial": "1000606",
+    "model": "MC 40 L",
+    "delivery_date": "2019-03-10",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000607": {
+    "serial": "1000607",
+    "model": "FC-250",
+    "delivery_date": "2010-08-12",
+    "dealer": "Delta Tech Co."
+  },
+  "1000608": {
+    "serial": "1000608",
+    "model": "MC 40",
+    "delivery_date": "2013-07-02",
+    "dealer": "West Equipment Inc."
+  },
+  "1000609": {
+    "serial": "1000609",
+    "model": "FC-250",
+    "delivery_date": "2017-05-28",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000610": {
+    "serial": "1000610",
+    "model": "CF 1000",
+    "delivery_date": "2014-09-13",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000611": {
+    "serial": "1000611",
+    "model": "FC-200",
+    "delivery_date": "2011-07-16",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000612": {
+    "serial": "1000612",
+    "model": "FC-200",
+    "delivery_date": "2009-07-17",
+    "dealer": "Example Trade Co."
+  },
+  "1000613": {
+    "serial": "1000613",
+    "model": "FC-250",
+    "delivery_date": "2009-04-22",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000614": {
+    "serial": "1000614",
+    "model": "MC 40-1",
+    "delivery_date": "2015-12-08",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000615": {
+    "serial": "1000615",
+    "model": "AC1",
+    "delivery_date": "2015-12-20",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000616": {
+    "serial": "1000616",
+    "model": "FC-200",
+    "delivery_date": "2011-12-20",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000617": {
+    "serial": "1000617",
+    "model": "MC 40 L",
+    "delivery_date": "2007-01-17",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000618": {
+    "serial": "1000618",
+    "model": "CF 1000",
+    "delivery_date": "2018-01-13",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000619": {
+    "serial": "1000619",
+    "model": "FC-200",
+    "delivery_date": "2010-10-22",
+    "dealer": "Nord Technik AB"
+  },
+  "1000620": {
+    "serial": "1000620",
+    "model": "MC 40 L",
+    "delivery_date": "2009-07-26",
+    "dealer": "Delta Tech Co."
+  },
+  "1000621": {
+    "serial": "1000621",
+    "model": "FC-200",
+    "delivery_date": "2017-06-18",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000622": {
+    "serial": "1000622",
+    "model": "FC-200",
+    "delivery_date": "2015-05-24",
+    "dealer": "Example Trade Co."
+  },
+  "1000623": {
+    "serial": "1000623",
+    "model": "MC 40 L",
+    "delivery_date": "2018-09-27",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000624": {
+    "serial": "1000624",
+    "model": "MC 40 L",
+    "delivery_date": "2009-09-12",
+    "dealer": "Apex Trade Co."
+  },
+  "1000625": {
+    "serial": "1000625",
+    "model": "CF 1000",
+    "delivery_date": "2007-08-09",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000626": {
+    "serial": "1000626",
+    "model": "MC 40-1",
+    "delivery_date": "2011-08-04",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000627": {
+    "serial": "1000627",
+    "model": "AC1",
+    "delivery_date": "2008-03-16",
+    "dealer": "Central Tools AG"
+  },
+  "1000628": {
+    "serial": "1000628",
+    "model": "MC 40",
+    "delivery_date": "2016-12-11",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000629": {
+    "serial": "1000629",
+    "model": "MC 40",
+    "delivery_date": "2024-07-04",
+    "dealer": "Apex Trade Co."
+  },
+  "1000630": {
+    "serial": "1000630",
+    "model": "FC-250",
+    "delivery_date": "2023-06-18",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000631": {
+    "serial": "1000631",
+    "model": "MC 40 L",
+    "delivery_date": "2018-11-27",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000632": {
+    "serial": "1000632",
+    "model": "MC 40 L",
+    "delivery_date": "2010-02-07",
+    "dealer": "Example Trade Co."
+  },
+  "1000633": {
+    "serial": "1000633",
+    "model": "FC-200",
+    "delivery_date": "2024-03-09",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000634": {
+    "serial": "1000634",
+    "model": "MC 40-1",
+    "delivery_date": "2005-05-27",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000635": {
+    "serial": "1000635",
+    "model": "AC1",
+    "delivery_date": "2020-04-06",
+    "dealer": "Demo Technik AG"
+  },
+  "1000636": {
+    "serial": "1000636",
+    "model": "MC 40",
+    "delivery_date": "2008-10-17",
+    "dealer": "Demo Technik AG"
+  },
+  "1000637": {
+    "serial": "1000637",
+    "model": "FC-200",
+    "delivery_date": "2014-08-17",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000638": {
+    "serial": "1000638",
+    "model": "FC-200",
+    "delivery_date": "2020-09-07",
+    "dealer": "Delta Tech Co."
+  },
+  "1000639": {
+    "serial": "1000639",
+    "model": "MC 40",
+    "delivery_date": "2016-05-15",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000640": {
+    "serial": "1000640",
+    "model": "AC1",
+    "delivery_date": "2019-07-05",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000641": {
+    "serial": "1000641",
+    "model": "MC 40-1",
+    "delivery_date": "2009-03-13",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000642": {
+    "serial": "1000642",
+    "model": "FC-200",
+    "delivery_date": "2005-12-07",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000643": {
+    "serial": "1000643",
+    "model": "MC 40-1",
+    "delivery_date": "2005-01-19",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000644": {
+    "serial": "1000644",
+    "model": "AC1",
+    "delivery_date": "2024-01-05",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000645": {
+    "serial": "1000645",
+    "model": "MC 40-1",
+    "delivery_date": "2018-09-20",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000646": {
+    "serial": "1000646",
+    "model": "MC 40-1",
+    "delivery_date": "2005-07-17",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000647": {
+    "serial": "1000647",
+    "model": "CF 1000",
+    "delivery_date": "2016-10-17",
+    "dealer": "Delta Tech Co."
+  },
+  "1000648": {
+    "serial": "1000648",
+    "model": "AC1",
+    "delivery_date": "2017-09-02",
+    "dealer": "Example Trade Co."
+  },
+  "1000649": {
+    "serial": "1000649",
+    "model": "AC1",
+    "delivery_date": "2016-05-30",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000650": {
+    "serial": "1000650",
+    "model": "MC 40 L",
+    "delivery_date": "2006-05-01",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000651": {
+    "serial": "1000651",
+    "model": "MC 40-1",
+    "delivery_date": "2013-09-26",
+    "dealer": "Central Tools AG"
+  },
+  "1000652": {
+    "serial": "1000652",
+    "model": "MC 40",
+    "delivery_date": "2022-04-17",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000653": {
+    "serial": "1000653",
+    "model": "MC 40",
+    "delivery_date": "2005-08-07",
+    "dealer": "Example Trade Co."
+  },
+  "1000654": {
+    "serial": "1000654",
+    "model": "FC-250",
+    "delivery_date": "2008-03-18",
+    "dealer": "Apex Trade Co."
+  },
+  "1000655": {
+    "serial": "1000655",
+    "model": "FC-250",
+    "delivery_date": "2015-07-08",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000656": {
+    "serial": "1000656",
+    "model": "AC1",
+    "delivery_date": "2011-02-01",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000657": {
+    "serial": "1000657",
+    "model": "MC 40",
+    "delivery_date": "2009-06-01",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000658": {
+    "serial": "1000658",
+    "model": "MC 40",
+    "delivery_date": "2022-11-23",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000659": {
+    "serial": "1000659",
+    "model": "CF 1000",
+    "delivery_date": "2015-09-02",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000660": {
+    "serial": "1000660",
+    "model": "MC 40-1",
+    "delivery_date": "2017-12-15",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000661": {
+    "serial": "1000661",
+    "model": "MC 40 L",
+    "delivery_date": "2016-10-14",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000662": {
+    "serial": "1000662",
+    "model": "MC 40 L",
+    "delivery_date": "2021-12-23",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000663": {
+    "serial": "1000663",
+    "model": "CF 1000",
+    "delivery_date": "2015-06-26",
+    "dealer": "Central Tools AG"
+  },
+  "1000664": {
+    "serial": "1000664",
+    "model": "MC 40-1",
+    "delivery_date": "2020-07-05",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000665": {
+    "serial": "1000665",
+    "model": "MC 40-1",
+    "delivery_date": "2011-08-09",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000666": {
+    "serial": "1000666",
+    "model": "AC1",
+    "delivery_date": "2012-09-29",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000667": {
+    "serial": "1000667",
+    "model": "FC-200",
+    "delivery_date": "2021-10-08",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000668": {
+    "serial": "1000668",
+    "model": "CF 1000",
+    "delivery_date": "2006-11-11",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000669": {
+    "serial": "1000669",
+    "model": "MC 40",
+    "delivery_date": "2006-12-24",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000670": {
+    "serial": "1000670",
+    "model": "MC 40-1",
+    "delivery_date": "2019-10-01",
+    "dealer": "Delta Tech Co."
+  },
+  "1000671": {
+    "serial": "1000671",
+    "model": "AC1",
+    "delivery_date": "2011-12-03",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000672": {
+    "serial": "1000672",
+    "model": "FC-250",
+    "delivery_date": "2020-10-19",
+    "dealer": "Apex Trade Co."
+  },
+  "1000673": {
+    "serial": "1000673",
+    "model": "MC 40-1",
+    "delivery_date": "2022-03-18",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000674": {
+    "serial": "1000674",
+    "model": "FC-200",
+    "delivery_date": "2015-07-16",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000675": {
+    "serial": "1000675",
+    "model": "FC-200",
+    "delivery_date": "2010-09-10",
+    "dealer": "Nord Technik AB"
+  },
+  "1000676": {
+    "serial": "1000676",
+    "model": "FC-200",
+    "delivery_date": "2008-01-16",
+    "dealer": "Apex Trade Co."
+  },
+  "1000677": {
+    "serial": "1000677",
+    "model": "MC 40 L",
+    "delivery_date": "2023-08-31",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000678": {
+    "serial": "1000678",
+    "model": "AC1",
+    "delivery_date": "2016-07-13",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000679": {
+    "serial": "1000679",
+    "model": "MC 40",
+    "delivery_date": "2021-07-06",
+    "dealer": "Delta Tech Co."
+  },
+  "1000680": {
+    "serial": "1000680",
+    "model": "MC 40-1",
+    "delivery_date": "2019-03-10",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000681": {
+    "serial": "1000681",
+    "model": "CF 1000",
+    "delivery_date": "2019-03-11",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000682": {
+    "serial": "1000682",
+    "model": "CF 1000",
+    "delivery_date": "2022-06-28",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000683": {
+    "serial": "1000683",
+    "model": "AC1",
+    "delivery_date": "2018-10-09",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000684": {
+    "serial": "1000684",
+    "model": "FC-200",
+    "delivery_date": "2017-02-08",
+    "dealer": "Apex Trade Co."
+  },
+  "1000685": {
+    "serial": "1000685",
+    "model": "MC 40",
+    "delivery_date": "2009-03-08",
+    "dealer": "West Equipment Inc."
+  },
+  "1000686": {
+    "serial": "1000686",
+    "model": "MC 40",
+    "delivery_date": "2010-09-16",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000687": {
+    "serial": "1000687",
+    "model": "FC-250",
+    "delivery_date": "2019-12-29",
+    "dealer": "Example Trade Co."
+  },
+  "1000688": {
+    "serial": "1000688",
+    "model": "AC1",
+    "delivery_date": "2009-11-29",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000689": {
+    "serial": "1000689",
+    "model": "MC 40",
+    "delivery_date": "2013-08-24",
+    "dealer": "Central Tools AG"
+  },
+  "1000690": {
+    "serial": "1000690",
+    "model": "MC 40",
+    "delivery_date": "2021-05-21",
+    "dealer": "Central Tools AG"
+  },
+  "1000691": {
+    "serial": "1000691",
+    "model": "CF 1000",
+    "delivery_date": "2009-08-08",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000692": {
+    "serial": "1000692",
+    "model": "MC 40",
+    "delivery_date": "2017-03-31",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000693": {
+    "serial": "1000693",
+    "model": "MC 40-1",
+    "delivery_date": "2011-08-15",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000694": {
+    "serial": "1000694",
+    "model": "AC1",
+    "delivery_date": "2023-12-25",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000695": {
+    "serial": "1000695",
+    "model": "MC 40 L",
+    "delivery_date": "2014-12-23",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000696": {
+    "serial": "1000696",
+    "model": "MC 40-1",
+    "delivery_date": "2018-07-19",
+    "dealer": "Nord Technik AB"
+  },
+  "1000697": {
+    "serial": "1000697",
+    "model": "AC1",
+    "delivery_date": "2016-07-01",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000698": {
+    "serial": "1000698",
+    "model": "MC 40 L",
+    "delivery_date": "2016-08-16",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000699": {
+    "serial": "1000699",
+    "model": "CF 1000",
+    "delivery_date": "2013-02-14",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000700": {
+    "serial": "1000700",
+    "model": "MC 40",
+    "delivery_date": "2021-10-01",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000701": {
+    "serial": "1000701",
+    "model": "FC-250",
+    "delivery_date": "2020-02-23",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000702": {
+    "serial": "1000702",
+    "model": "MC 40",
+    "delivery_date": "2018-11-20",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000703": {
+    "serial": "1000703",
+    "model": "MC 40",
+    "delivery_date": "2011-06-15",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000704": {
+    "serial": "1000704",
+    "model": "AC1",
+    "delivery_date": "2023-06-01",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000705": {
+    "serial": "1000705",
+    "model": "MC 40 L",
+    "delivery_date": "2018-08-24",
+    "dealer": "Central Tools AG"
+  },
+  "1000706": {
+    "serial": "1000706",
+    "model": "MC 40",
+    "delivery_date": "2018-09-12",
+    "dealer": "Nord Technik AB"
+  },
+  "1000707": {
+    "serial": "1000707",
+    "model": "MC 40",
+    "delivery_date": "2017-04-29",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000708": {
+    "serial": "1000708",
+    "model": "FC-250",
+    "delivery_date": "2021-04-23",
+    "dealer": "Demo Technik AG"
+  },
+  "1000709": {
+    "serial": "1000709",
+    "model": "MC 40-1",
+    "delivery_date": "2018-04-13",
+    "dealer": "Central Tools AG"
+  },
+  "1000710": {
+    "serial": "1000710",
+    "model": "CF 1000",
+    "delivery_date": "2016-11-02",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000711": {
+    "serial": "1000711",
+    "model": "FC-200",
+    "delivery_date": "2013-10-22",
+    "dealer": "Example Trade Co."
+  },
+  "1000712": {
+    "serial": "1000712",
+    "model": "MC 40 L",
+    "delivery_date": "2023-07-28",
+    "dealer": "Example Trade Co."
+  },
+  "1000713": {
+    "serial": "1000713",
+    "model": "FC-250",
+    "delivery_date": "2009-02-11",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000714": {
+    "serial": "1000714",
+    "model": "MC 40 L",
+    "delivery_date": "2009-12-13",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000715": {
+    "serial": "1000715",
+    "model": "CF 1000",
+    "delivery_date": "2018-11-15",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000716": {
+    "serial": "1000716",
+    "model": "MC 40",
+    "delivery_date": "2008-05-25",
+    "dealer": "Demo Technik AG"
+  },
+  "1000717": {
+    "serial": "1000717",
+    "model": "FC-200",
+    "delivery_date": "2016-08-13",
+    "dealer": "Demo Technik AG"
+  },
+  "1000718": {
+    "serial": "1000718",
+    "model": "MC 40 L",
+    "delivery_date": "2021-08-02",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000719": {
+    "serial": "1000719",
+    "model": "MC 40",
+    "delivery_date": "2021-02-15",
+    "dealer": "Central Tools AG"
+  },
+  "1000720": {
+    "serial": "1000720",
+    "model": "MC 40",
+    "delivery_date": "2013-05-13",
+    "dealer": "West Equipment Inc."
+  },
+  "1000721": {
+    "serial": "1000721",
+    "model": "FC-200",
+    "delivery_date": "2014-07-27",
+    "dealer": "Nord Technik AB"
+  },
+  "1000722": {
+    "serial": "1000722",
+    "model": "MC 40",
+    "delivery_date": "2006-07-06",
+    "dealer": "Delta Tech Co."
+  },
+  "1000723": {
+    "serial": "1000723",
+    "model": "MC 40 L",
+    "delivery_date": "2023-06-24",
+    "dealer": "West Equipment Inc."
+  },
+  "1000724": {
+    "serial": "1000724",
+    "model": "FC-250",
+    "delivery_date": "2006-10-20",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000725": {
+    "serial": "1000725",
+    "model": "MC 40",
+    "delivery_date": "2020-03-16",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000726": {
+    "serial": "1000726",
+    "model": "FC-200",
+    "delivery_date": "2014-07-11",
+    "dealer": "Delta Tech Co."
+  },
+  "1000727": {
+    "serial": "1000727",
+    "model": "AC1",
+    "delivery_date": "2012-06-23",
+    "dealer": "West Equipment Inc."
+  },
+  "1000728": {
+    "serial": "1000728",
+    "model": "MC 40 L",
+    "delivery_date": "2023-06-12",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000729": {
+    "serial": "1000729",
+    "model": "MC 40 L",
+    "delivery_date": "2024-09-11",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000730": {
+    "serial": "1000730",
+    "model": "AC1",
+    "delivery_date": "2021-06-23",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000731": {
+    "serial": "1000731",
+    "model": "FC-250",
+    "delivery_date": "2008-01-13",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000732": {
+    "serial": "1000732",
+    "model": "MC 40 L",
+    "delivery_date": "2023-06-03",
+    "dealer": "Delta Tech Co."
+  },
+  "1000733": {
+    "serial": "1000733",
+    "model": "FC-250",
+    "delivery_date": "2014-05-16",
+    "dealer": "Central Tools AG"
+  },
+  "1000734": {
+    "serial": "1000734",
+    "model": "AC1",
+    "delivery_date": "2008-09-17",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000735": {
+    "serial": "1000735",
+    "model": "MC 40-1",
+    "delivery_date": "2019-05-07",
+    "dealer": "Delta Tech Co."
+  },
+  "1000736": {
+    "serial": "1000736",
+    "model": "FC-250",
+    "delivery_date": "2008-10-11",
+    "dealer": "Apex Trade Co."
+  },
+  "1000737": {
+    "serial": "1000737",
+    "model": "MC 40 L",
+    "delivery_date": "2024-10-30",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000738": {
+    "serial": "1000738",
+    "model": "FC-250",
+    "delivery_date": "2024-02-06",
+    "dealer": "Example Trade Co."
+  },
+  "1000739": {
+    "serial": "1000739",
+    "model": "MC 40",
+    "delivery_date": "2021-03-07",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000740": {
+    "serial": "1000740",
+    "model": "MC 40-1",
+    "delivery_date": "2022-12-22",
+    "dealer": "Nord Technik AB"
+  },
+  "1000741": {
+    "serial": "1000741",
+    "model": "CF 1000",
+    "delivery_date": "2020-07-25",
+    "dealer": "Central Tools AG"
+  },
+  "1000742": {
+    "serial": "1000742",
+    "model": "MC 40 L",
+    "delivery_date": "2005-09-29",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000743": {
+    "serial": "1000743",
+    "model": "FC-200",
+    "delivery_date": "2012-10-20",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000744": {
+    "serial": "1000744",
+    "model": "FC-250",
+    "delivery_date": "2024-11-05",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000745": {
+    "serial": "1000745",
+    "model": "FC-250",
+    "delivery_date": "2015-08-16",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000746": {
+    "serial": "1000746",
+    "model": "FC-200",
+    "delivery_date": "2008-10-08",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000747": {
+    "serial": "1000747",
+    "model": "MC 40",
+    "delivery_date": "2013-11-15",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000748": {
+    "serial": "1000748",
+    "model": "MC 40 L",
+    "delivery_date": "2022-07-06",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000749": {
+    "serial": "1000749",
+    "model": "FC-200",
+    "delivery_date": "2013-04-18",
+    "dealer": "West Equipment Inc."
+  },
+  "1000750": {
+    "serial": "1000750",
+    "model": "MC 40-1",
+    "delivery_date": "2008-09-12",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000751": {
+    "serial": "1000751",
+    "model": "AC1",
+    "delivery_date": "2013-07-08",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000752": {
+    "serial": "1000752",
+    "model": "AC1",
+    "delivery_date": "2015-10-14",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000753": {
+    "serial": "1000753",
+    "model": "MC 40 L",
+    "delivery_date": "2009-05-01",
+    "dealer": "Apex Trade Co."
+  },
+  "1000754": {
+    "serial": "1000754",
+    "model": "FC-250",
+    "delivery_date": "2015-04-23",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000755": {
+    "serial": "1000755",
+    "model": "AC1",
+    "delivery_date": "2020-03-20",
+    "dealer": "Delta Tech Co."
+  },
+  "1000756": {
+    "serial": "1000756",
+    "model": "MC 40-1",
+    "delivery_date": "2005-12-30",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000757": {
+    "serial": "1000757",
+    "model": "FC-250",
+    "delivery_date": "2006-05-23",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000758": {
+    "serial": "1000758",
+    "model": "MC 40-1",
+    "delivery_date": "2020-09-20",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000759": {
+    "serial": "1000759",
+    "model": "AC1",
+    "delivery_date": "2006-08-29",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000760": {
+    "serial": "1000760",
+    "model": "CF 1000",
+    "delivery_date": "2022-11-24",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000761": {
+    "serial": "1000761",
+    "model": "FC-250",
+    "delivery_date": "2009-02-04",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000762": {
+    "serial": "1000762",
+    "model": "MC 40",
+    "delivery_date": "2018-07-09",
+    "dealer": "Nord Technik AB"
+  },
+  "1000763": {
+    "serial": "1000763",
+    "model": "CF 1000",
+    "delivery_date": "2013-11-22",
+    "dealer": "Demo Technik AG"
+  },
+  "1000764": {
+    "serial": "1000764",
+    "model": "MC 40",
+    "delivery_date": "2014-01-04",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000765": {
+    "serial": "1000765",
+    "model": "MC 40 L",
+    "delivery_date": "2021-05-31",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000766": {
+    "serial": "1000766",
+    "model": "MC 40-1",
+    "delivery_date": "2010-02-19",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000767": {
+    "serial": "1000767",
+    "model": "MC 40 L",
+    "delivery_date": "2010-06-19",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000768": {
+    "serial": "1000768",
+    "model": "FC-250",
+    "delivery_date": "2021-09-23",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000769": {
+    "serial": "1000769",
+    "model": "CF 1000",
+    "delivery_date": "2009-01-23",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000770": {
+    "serial": "1000770",
+    "model": "AC1",
+    "delivery_date": "2008-05-30",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000771": {
+    "serial": "1000771",
+    "model": "MC 40",
+    "delivery_date": "2014-06-18",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000772": {
+    "serial": "1000772",
+    "model": "FC-200",
+    "delivery_date": "2011-04-13",
+    "dealer": "Apex Trade Co."
+  },
+  "1000773": {
+    "serial": "1000773",
+    "model": "CF 1000",
+    "delivery_date": "2020-03-25",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000774": {
+    "serial": "1000774",
+    "model": "CF 1000",
+    "delivery_date": "2008-01-05",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000775": {
+    "serial": "1000775",
+    "model": "CF 1000",
+    "delivery_date": "2024-05-17",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000776": {
+    "serial": "1000776",
+    "model": "CF 1000",
+    "delivery_date": "2010-02-23",
+    "dealer": "Example Trade Co."
+  },
+  "1000777": {
+    "serial": "1000777",
+    "model": "AC1",
+    "delivery_date": "2018-02-23",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000778": {
+    "serial": "1000778",
+    "model": "AC1",
+    "delivery_date": "2017-02-13",
+    "dealer": "Demo Technik AG"
+  },
+  "1000779": {
+    "serial": "1000779",
+    "model": "MC 40-1",
+    "delivery_date": "2011-06-06",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000780": {
+    "serial": "1000780",
+    "model": "FC-200",
+    "delivery_date": "2019-08-06",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000781": {
+    "serial": "1000781",
+    "model": "MC 40-1",
+    "delivery_date": "2008-12-18",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000782": {
+    "serial": "1000782",
+    "model": "FC-200",
+    "delivery_date": "2021-01-19",
+    "dealer": "Delta Tech Co."
+  },
+  "1000783": {
+    "serial": "1000783",
+    "model": "FC-250",
+    "delivery_date": "2024-10-15",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000784": {
+    "serial": "1000784",
+    "model": "MC 40",
+    "delivery_date": "2007-01-02",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000785": {
+    "serial": "1000785",
+    "model": "MC 40-1",
+    "delivery_date": "2023-12-10",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000786": {
+    "serial": "1000786",
+    "model": "FC-200",
+    "delivery_date": "2014-10-19",
+    "dealer": "West Equipment Inc."
+  },
+  "1000787": {
+    "serial": "1000787",
+    "model": "MC 40",
+    "delivery_date": "2019-09-23",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000788": {
+    "serial": "1000788",
+    "model": "AC1",
+    "delivery_date": "2007-07-17",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000789": {
+    "serial": "1000789",
+    "model": "MC 40 L",
+    "delivery_date": "2015-05-30",
+    "dealer": "Delta Tech Co."
+  },
+  "1000790": {
+    "serial": "1000790",
+    "model": "MC 40",
+    "delivery_date": "2022-04-14",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000791": {
+    "serial": "1000791",
+    "model": "FC-250",
+    "delivery_date": "2023-12-02",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000792": {
+    "serial": "1000792",
+    "model": "FC-250",
+    "delivery_date": "2016-03-11",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000793": {
+    "serial": "1000793",
+    "model": "MC 40 L",
+    "delivery_date": "2010-04-03",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000794": {
+    "serial": "1000794",
+    "model": "MC 40 L",
+    "delivery_date": "2010-11-20",
+    "dealer": "Nord Technik AB"
+  },
+  "1000795": {
+    "serial": "1000795",
+    "model": "FC-250",
+    "delivery_date": "2015-02-01",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000796": {
+    "serial": "1000796",
+    "model": "MC 40 L",
+    "delivery_date": "2009-09-14",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000797": {
+    "serial": "1000797",
+    "model": "FC-250",
+    "delivery_date": "2018-01-22",
+    "dealer": "Demo Technik AG"
+  },
+  "1000798": {
+    "serial": "1000798",
+    "model": "AC1",
+    "delivery_date": "2020-09-15",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000799": {
+    "serial": "1000799",
+    "model": "FC-200",
+    "delivery_date": "2017-01-26",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000800": {
+    "serial": "1000800",
+    "model": "FC-200",
+    "delivery_date": "2015-06-28",
+    "dealer": "Delta Tech Co."
+  },
+  "1000801": {
+    "serial": "1000801",
+    "model": "CF 1000",
+    "delivery_date": "2021-12-28",
+    "dealer": "Demo Technik AG"
+  },
+  "1000802": {
+    "serial": "1000802",
+    "model": "CF 1000",
+    "delivery_date": "2024-12-18",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000803": {
+    "serial": "1000803",
+    "model": "CF 1000",
+    "delivery_date": "2017-11-09",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000804": {
+    "serial": "1000804",
+    "model": "MC 40",
+    "delivery_date": "2015-01-13",
+    "dealer": "Example Trade Co."
+  },
+  "1000805": {
+    "serial": "1000805",
+    "model": "AC1",
+    "delivery_date": "2023-07-26",
+    "dealer": "West Equipment Inc."
+  },
+  "1000806": {
+    "serial": "1000806",
+    "model": "FC-200",
+    "delivery_date": "2018-11-23",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000807": {
+    "serial": "1000807",
+    "model": "FC-200",
+    "delivery_date": "2020-01-19",
+    "dealer": "Example Trade Co."
+  },
+  "1000808": {
+    "serial": "1000808",
+    "model": "MC 40-1",
+    "delivery_date": "2019-08-21",
+    "dealer": "Apex Trade Co."
+  },
+  "1000809": {
+    "serial": "1000809",
+    "model": "MC 40",
+    "delivery_date": "2016-09-13",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000810": {
+    "serial": "1000810",
+    "model": "MC 40 L",
+    "delivery_date": "2024-08-29",
+    "dealer": "Demo Technik AG"
+  },
+  "1000811": {
+    "serial": "1000811",
+    "model": "MC 40 L",
+    "delivery_date": "2019-07-14",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000812": {
+    "serial": "1000812",
+    "model": "AC1",
+    "delivery_date": "2020-01-03",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000813": {
+    "serial": "1000813",
+    "model": "MC 40 L",
+    "delivery_date": "2022-07-08",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000814": {
+    "serial": "1000814",
+    "model": "FC-250",
+    "delivery_date": "2005-12-03",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000815": {
+    "serial": "1000815",
+    "model": "MC 40-1",
+    "delivery_date": "2020-07-11",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000816": {
+    "serial": "1000816",
+    "model": "FC-200",
+    "delivery_date": "2023-07-04",
+    "dealer": "Apex Trade Co."
+  },
+  "1000817": {
+    "serial": "1000817",
+    "model": "FC-250",
+    "delivery_date": "2019-06-15",
+    "dealer": "Example Trade Co."
+  },
+  "1000818": {
+    "serial": "1000818",
+    "model": "CF 1000",
+    "delivery_date": "2021-08-12",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000819": {
+    "serial": "1000819",
+    "model": "CF 1000",
+    "delivery_date": "2012-04-27",
+    "dealer": "West Equipment Inc."
+  },
+  "1000820": {
+    "serial": "1000820",
+    "model": "CF 1000",
+    "delivery_date": "2009-12-27",
+    "dealer": "Example Trade Co."
+  },
+  "1000821": {
+    "serial": "1000821",
+    "model": "FC-200",
+    "delivery_date": "2014-04-24",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000822": {
+    "serial": "1000822",
+    "model": "FC-200",
+    "delivery_date": "2016-04-20",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000823": {
+    "serial": "1000823",
+    "model": "MC 40-1",
+    "delivery_date": "2009-08-22",
+    "dealer": "Demo Technik AG"
+  },
+  "1000824": {
+    "serial": "1000824",
+    "model": "MC 40 L",
+    "delivery_date": "2006-03-24",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000825": {
+    "serial": "1000825",
+    "model": "MC 40-1",
+    "delivery_date": "2021-11-08",
+    "dealer": "West Equipment Inc."
+  },
+  "1000826": {
+    "serial": "1000826",
+    "model": "MC 40-1",
+    "delivery_date": "2015-06-30",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000827": {
+    "serial": "1000827",
+    "model": "MC 40",
+    "delivery_date": "2011-01-13",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000828": {
+    "serial": "1000828",
+    "model": "FC-200",
+    "delivery_date": "2016-10-04",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000829": {
+    "serial": "1000829",
+    "model": "CF 1000",
+    "delivery_date": "2013-12-27",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000830": {
+    "serial": "1000830",
+    "model": "CF 1000",
+    "delivery_date": "2024-03-10",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000831": {
+    "serial": "1000831",
+    "model": "FC-200",
+    "delivery_date": "2008-09-25",
+    "dealer": "Central Tools AG"
+  },
+  "1000832": {
+    "serial": "1000832",
+    "model": "MC 40",
+    "delivery_date": "2014-03-26",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000833": {
+    "serial": "1000833",
+    "model": "CF 1000",
+    "delivery_date": "2016-10-19",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000834": {
+    "serial": "1000834",
+    "model": "MC 40-1",
+    "delivery_date": "2018-08-06",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000835": {
+    "serial": "1000835",
+    "model": "CF 1000",
+    "delivery_date": "2014-12-09",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000836": {
+    "serial": "1000836",
+    "model": "MC 40 L",
+    "delivery_date": "2020-11-12",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000837": {
+    "serial": "1000837",
+    "model": "MC 40-1",
+    "delivery_date": "2014-03-01",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000838": {
+    "serial": "1000838",
+    "model": "MC 40 L",
+    "delivery_date": "2023-03-31",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000839": {
+    "serial": "1000839",
+    "model": "FC-200",
+    "delivery_date": "2008-01-03",
+    "dealer": "West Equipment Inc."
+  },
+  "1000840": {
+    "serial": "1000840",
+    "model": "FC-200",
+    "delivery_date": "2015-07-13",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000841": {
+    "serial": "1000841",
+    "model": "MC 40 L",
+    "delivery_date": "2020-06-16",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000842": {
+    "serial": "1000842",
+    "model": "FC-200",
+    "delivery_date": "2021-02-18",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000843": {
+    "serial": "1000843",
+    "model": "FC-250",
+    "delivery_date": "2009-09-11",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000844": {
+    "serial": "1000844",
+    "model": "MC 40-1",
+    "delivery_date": "2006-12-19",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000845": {
+    "serial": "1000845",
+    "model": "MC 40-1",
+    "delivery_date": "2022-09-23",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000846": {
+    "serial": "1000846",
+    "model": "MC 40",
+    "delivery_date": "2020-11-24",
+    "dealer": "Demo Technik AG"
+  },
+  "1000847": {
+    "serial": "1000847",
+    "model": "MC 40 L",
+    "delivery_date": "2016-01-24",
+    "dealer": "Apex Trade Co."
+  },
+  "1000848": {
+    "serial": "1000848",
+    "model": "CF 1000",
+    "delivery_date": "2007-08-28",
+    "dealer": "Demo Technik AG"
+  },
+  "1000849": {
+    "serial": "1000849",
+    "model": "MC 40-1",
+    "delivery_date": "2023-06-26",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000850": {
+    "serial": "1000850",
+    "model": "MC 40-1",
+    "delivery_date": "2019-02-22",
+    "dealer": "West Equipment Inc."
+  },
+  "1000851": {
+    "serial": "1000851",
+    "model": "MC 40",
+    "delivery_date": "2022-09-19",
+    "dealer": "West Equipment Inc."
+  },
+  "1000852": {
+    "serial": "1000852",
+    "model": "FC-250",
+    "delivery_date": "2019-05-12",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000853": {
+    "serial": "1000853",
+    "model": "MC 40",
+    "delivery_date": "2020-12-14",
+    "dealer": "Nord Technik AB"
+  },
+  "1000854": {
+    "serial": "1000854",
+    "model": "MC 40-1",
+    "delivery_date": "2007-11-14",
+    "dealer": "Delta Tech Co."
+  },
+  "1000855": {
+    "serial": "1000855",
+    "model": "FC-250",
+    "delivery_date": "2018-05-23",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000856": {
+    "serial": "1000856",
+    "model": "MC 40",
+    "delivery_date": "2007-04-21",
+    "dealer": "Apex Trade Co."
+  },
+  "1000857": {
+    "serial": "1000857",
+    "model": "MC 40 L",
+    "delivery_date": "2018-02-11",
+    "dealer": "Apex Trade Co."
+  },
+  "1000858": {
+    "serial": "1000858",
+    "model": "AC1",
+    "delivery_date": "2007-11-24",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000859": {
+    "serial": "1000859",
+    "model": "MC 40-1",
+    "delivery_date": "2012-04-12",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000860": {
+    "serial": "1000860",
+    "model": "CF 1000",
+    "delivery_date": "2020-10-30",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000861": {
+    "serial": "1000861",
+    "model": "MC 40 L",
+    "delivery_date": "2009-03-24",
+    "dealer": "West Equipment Inc."
+  },
+  "1000862": {
+    "serial": "1000862",
+    "model": "CF 1000",
+    "delivery_date": "2021-05-10",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000863": {
+    "serial": "1000863",
+    "model": "MC 40 L",
+    "delivery_date": "2021-06-19",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000864": {
+    "serial": "1000864",
+    "model": "MC 40 L",
+    "delivery_date": "2015-04-23",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000865": {
+    "serial": "1000865",
+    "model": "FC-200",
+    "delivery_date": "2007-05-01",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000866": {
+    "serial": "1000866",
+    "model": "AC1",
+    "delivery_date": "2014-09-20",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000867": {
+    "serial": "1000867",
+    "model": "FC-200",
+    "delivery_date": "2010-09-21",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000868": {
+    "serial": "1000868",
+    "model": "FC-250",
+    "delivery_date": "2021-12-25",
+    "dealer": "Demo Technik AG"
+  },
+  "1000869": {
+    "serial": "1000869",
+    "model": "FC-200",
+    "delivery_date": "2023-06-07",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000870": {
+    "serial": "1000870",
+    "model": "FC-200",
+    "delivery_date": "2018-04-22",
+    "dealer": "West Equipment Inc."
+  },
+  "1000871": {
+    "serial": "1000871",
+    "model": "MC 40-1",
+    "delivery_date": "2018-04-13",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000872": {
+    "serial": "1000872",
+    "model": "MC 40-1",
+    "delivery_date": "2020-03-18",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000873": {
+    "serial": "1000873",
+    "model": "MC 40",
+    "delivery_date": "2024-03-31",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000874": {
+    "serial": "1000874",
+    "model": "MC 40-1",
+    "delivery_date": "2024-02-04",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000875": {
+    "serial": "1000875",
+    "model": "AC1",
+    "delivery_date": "2017-10-09",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000876": {
+    "serial": "1000876",
+    "model": "AC1",
+    "delivery_date": "2017-11-26",
+    "dealer": "Apex Trade Co."
+  },
+  "1000877": {
+    "serial": "1000877",
+    "model": "CF 1000",
+    "delivery_date": "2010-05-16",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000878": {
+    "serial": "1000878",
+    "model": "FC-250",
+    "delivery_date": "2011-05-11",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000879": {
+    "serial": "1000879",
+    "model": "FC-250",
+    "delivery_date": "2018-12-31",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000880": {
+    "serial": "1000880",
+    "model": "FC-250",
+    "delivery_date": "2020-09-14",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000881": {
+    "serial": "1000881",
+    "model": "FC-200",
+    "delivery_date": "2014-03-08",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000882": {
+    "serial": "1000882",
+    "model": "CF 1000",
+    "delivery_date": "2022-12-22",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000883": {
+    "serial": "1000883",
+    "model": "CF 1000",
+    "delivery_date": "2019-01-04",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000884": {
+    "serial": "1000884",
+    "model": "FC-200",
+    "delivery_date": "2011-03-09",
+    "dealer": "Delta Tech Co."
+  },
+  "1000885": {
+    "serial": "1000885",
+    "model": "MC 40-1",
+    "delivery_date": "2017-02-20",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000886": {
+    "serial": "1000886",
+    "model": "FC-250",
+    "delivery_date": "2013-04-14",
+    "dealer": "Apex Trade Co."
+  },
+  "1000887": {
+    "serial": "1000887",
+    "model": "FC-250",
+    "delivery_date": "2006-02-05",
+    "dealer": "West Equipment Inc."
+  },
+  "1000888": {
+    "serial": "1000888",
+    "model": "CF 1000",
+    "delivery_date": "2009-05-29",
+    "dealer": "Nord Technik AB"
+  },
+  "1000889": {
+    "serial": "1000889",
+    "model": "CF 1000",
+    "delivery_date": "2008-11-17",
+    "dealer": "Delta Tech Co."
+  },
+  "1000890": {
+    "serial": "1000890",
+    "model": "CF 1000",
+    "delivery_date": "2011-03-27",
+    "dealer": "Apex Trade Co."
+  },
+  "1000891": {
+    "serial": "1000891",
+    "model": "MC 40-1",
+    "delivery_date": "2023-04-16",
+    "dealer": "Central Tools AG"
+  },
+  "1000892": {
+    "serial": "1000892",
+    "model": "MC 40 L",
+    "delivery_date": "2019-03-03",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000893": {
+    "serial": "1000893",
+    "model": "CF 1000",
+    "delivery_date": "2017-02-01",
+    "dealer": "Nord Technik AB"
+  },
+  "1000894": {
+    "serial": "1000894",
+    "model": "MC 40 L",
+    "delivery_date": "2012-02-25",
+    "dealer": "Apex Trade Co."
+  },
+  "1000895": {
+    "serial": "1000895",
+    "model": "MC 40 L",
+    "delivery_date": "2018-03-15",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000896": {
+    "serial": "1000896",
+    "model": "MC 40 L",
+    "delivery_date": "2009-07-23",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000897": {
+    "serial": "1000897",
+    "model": "AC1",
+    "delivery_date": "2013-06-26",
+    "dealer": "Delta Tech Co."
+  },
+  "1000898": {
+    "serial": "1000898",
+    "model": "MC 40-1",
+    "delivery_date": "2006-12-17",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000899": {
+    "serial": "1000899",
+    "model": "FC-250",
+    "delivery_date": "2012-04-28",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000900": {
+    "serial": "1000900",
+    "model": "AC1",
+    "delivery_date": "2011-06-02",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000901": {
+    "serial": "1000901",
+    "model": "FC-250",
+    "delivery_date": "2018-07-15",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000902": {
+    "serial": "1000902",
+    "model": "FC-250",
+    "delivery_date": "2021-12-02",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000903": {
+    "serial": "1000903",
+    "model": "FC-250",
+    "delivery_date": "2014-08-20",
+    "dealer": "Delta Tech Co."
+  },
+  "1000904": {
+    "serial": "1000904",
+    "model": "AC1",
+    "delivery_date": "2022-01-16",
+    "dealer": "Apex Trade Co."
+  },
+  "1000905": {
+    "serial": "1000905",
+    "model": "MC 40",
+    "delivery_date": "2005-03-30",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000906": {
+    "serial": "1000906",
+    "model": "CF 1000",
+    "delivery_date": "2005-07-21",
+    "dealer": "West Equipment Inc."
+  },
+  "1000907": {
+    "serial": "1000907",
+    "model": "MC 40-1",
+    "delivery_date": "2015-03-21",
+    "dealer": "Example Trade Co."
+  },
+  "1000908": {
+    "serial": "1000908",
+    "model": "CF 1000",
+    "delivery_date": "2008-01-27",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000909": {
+    "serial": "1000909",
+    "model": "MC 40 L",
+    "delivery_date": "2015-10-09",
+    "dealer": "Central Tools AG"
+  },
+  "1000910": {
+    "serial": "1000910",
+    "model": "MC 40-1",
+    "delivery_date": "2019-09-05",
+    "dealer": "Apex Trade Co."
+  },
+  "1000911": {
+    "serial": "1000911",
+    "model": "FC-250",
+    "delivery_date": "2024-05-31",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000912": {
+    "serial": "1000912",
+    "model": "CF 1000",
+    "delivery_date": "2012-02-05",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000913": {
+    "serial": "1000913",
+    "model": "FC-200",
+    "delivery_date": "2022-03-20",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000914": {
+    "serial": "1000914",
+    "model": "MC 40",
+    "delivery_date": "2024-03-28",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000915": {
+    "serial": "1000915",
+    "model": "FC-250",
+    "delivery_date": "2022-02-21",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000916": {
+    "serial": "1000916",
+    "model": "MC 40 L",
+    "delivery_date": "2011-09-26",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000917": {
+    "serial": "1000917",
+    "model": "CF 1000",
+    "delivery_date": "2008-07-05",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000918": {
+    "serial": "1000918",
+    "model": "MC 40 L",
+    "delivery_date": "2006-10-12",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000919": {
+    "serial": "1000919",
+    "model": "FC-200",
+    "delivery_date": "2013-05-27",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000920": {
+    "serial": "1000920",
+    "model": "FC-250",
+    "delivery_date": "2012-11-08",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000921": {
+    "serial": "1000921",
+    "model": "MC 40-1",
+    "delivery_date": "2006-09-27",
+    "dealer": "Nord Technik AB"
+  },
+  "1000922": {
+    "serial": "1000922",
+    "model": "AC1",
+    "delivery_date": "2013-05-03",
+    "dealer": "Apex Trade Co."
+  },
+  "1000923": {
+    "serial": "1000923",
+    "model": "MC 40 L",
+    "delivery_date": "2011-05-30",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000924": {
+    "serial": "1000924",
+    "model": "FC-200",
+    "delivery_date": "2020-05-06",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000925": {
+    "serial": "1000925",
+    "model": "MC 40 L",
+    "delivery_date": "2005-02-02",
+    "dealer": "Central Tools AG"
+  },
+  "1000926": {
+    "serial": "1000926",
+    "model": "MC 40-1",
+    "delivery_date": "2024-06-19",
+    "dealer": "Apex Trade Co."
+  },
+  "1000927": {
+    "serial": "1000927",
+    "model": "FC-200",
+    "delivery_date": "2014-07-03",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000928": {
+    "serial": "1000928",
+    "model": "FC-200",
+    "delivery_date": "2010-06-06",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000929": {
+    "serial": "1000929",
+    "model": "MC 40",
+    "delivery_date": "2011-10-15",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000930": {
+    "serial": "1000930",
+    "model": "MC 40",
+    "delivery_date": "2023-11-28",
+    "dealer": "Central Tools AG"
+  },
+  "1000931": {
+    "serial": "1000931",
+    "model": "MC 40 L",
+    "delivery_date": "2013-01-21",
+    "dealer": "Nord Technik AB"
+  },
+  "1000932": {
+    "serial": "1000932",
+    "model": "MC 40-1",
+    "delivery_date": "2023-10-21",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000933": {
+    "serial": "1000933",
+    "model": "MC 40 L",
+    "delivery_date": "2013-09-25",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000934": {
+    "serial": "1000934",
+    "model": "MC 40 L",
+    "delivery_date": "2016-06-12",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000935": {
+    "serial": "1000935",
+    "model": "CF 1000",
+    "delivery_date": "2011-01-13",
+    "dealer": "Demo Technik AG"
+  },
+  "1000936": {
+    "serial": "1000936",
+    "model": "MC 40",
+    "delivery_date": "2006-03-23",
+    "dealer": "Central Tools AG"
+  },
+  "1000937": {
+    "serial": "1000937",
+    "model": "CF 1000",
+    "delivery_date": "2013-03-18",
+    "dealer": "Demo Technik AG"
+  },
+  "1000938": {
+    "serial": "1000938",
+    "model": "FC-250",
+    "delivery_date": "2023-10-16",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000939": {
+    "serial": "1000939",
+    "model": "FC-250",
+    "delivery_date": "2017-07-22",
+    "dealer": "West Equipment Inc."
+  },
+  "1000940": {
+    "serial": "1000940",
+    "model": "MC 40",
+    "delivery_date": "2023-01-03",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000941": {
+    "serial": "1000941",
+    "model": "MC 40 L",
+    "delivery_date": "2024-11-20",
+    "dealer": "Demo Technik AG"
+  },
+  "1000942": {
+    "serial": "1000942",
+    "model": "MC 40",
+    "delivery_date": "2016-04-06",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000943": {
+    "serial": "1000943",
+    "model": "AC1",
+    "delivery_date": "2007-10-09",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000944": {
+    "serial": "1000944",
+    "model": "CF 1000",
+    "delivery_date": "2023-01-03",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000945": {
+    "serial": "1000945",
+    "model": "CF 1000",
+    "delivery_date": "2024-02-18",
+    "dealer": "Delta Tech Co."
+  },
+  "1000946": {
+    "serial": "1000946",
+    "model": "FC-250",
+    "delivery_date": "2017-10-02",
+    "dealer": "Delta Tech Co."
+  },
+  "1000947": {
+    "serial": "1000947",
+    "model": "FC-200",
+    "delivery_date": "2012-09-23",
+    "dealer": "Delta Tech Co."
+  },
+  "1000948": {
+    "serial": "1000948",
+    "model": "MC 40-1",
+    "delivery_date": "2006-03-30",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000949": {
+    "serial": "1000949",
+    "model": "CF 1000",
+    "delivery_date": "2008-07-26",
+    "dealer": "Delta Tech Co."
+  },
+  "1000950": {
+    "serial": "1000950",
+    "model": "FC-200",
+    "delivery_date": "2013-11-11",
+    "dealer": "Demo Technik AG"
+  },
+  "1000951": {
+    "serial": "1000951",
+    "model": "MC 40-1",
+    "delivery_date": "2009-08-21",
+    "dealer": "Demo Technik AG"
+  },
+  "1000952": {
+    "serial": "1000952",
+    "model": "AC1",
+    "delivery_date": "2024-07-12",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000953": {
+    "serial": "1000953",
+    "model": "MC 40 L",
+    "delivery_date": "2018-08-02",
+    "dealer": "Central Tools AG"
+  },
+  "1000954": {
+    "serial": "1000954",
+    "model": "MC 40-1",
+    "delivery_date": "2013-03-25",
+    "dealer": "Example Trade Co."
+  },
+  "1000955": {
+    "serial": "1000955",
+    "model": "FC-200",
+    "delivery_date": "2014-10-09",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000956": {
+    "serial": "1000956",
+    "model": "FC-200",
+    "delivery_date": "2009-07-27",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000957": {
+    "serial": "1000957",
+    "model": "CF 1000",
+    "delivery_date": "2018-11-27",
+    "dealer": "Nord Technik AB"
+  },
+  "1000958": {
+    "serial": "1000958",
+    "model": "MC 40 L",
+    "delivery_date": "2009-09-20",
+    "dealer": "West Equipment Inc."
+  },
+  "1000959": {
+    "serial": "1000959",
+    "model": "FC-200",
+    "delivery_date": "2022-12-25",
+    "dealer": "Demo Technik AG"
+  },
+  "1000960": {
+    "serial": "1000960",
+    "model": "MC 40",
+    "delivery_date": "2023-10-31",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000961": {
+    "serial": "1000961",
+    "model": "FC-250",
+    "delivery_date": "2009-09-17",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000962": {
+    "serial": "1000962",
+    "model": "MC 40 L",
+    "delivery_date": "2013-08-03",
+    "dealer": "Sample Dealer GmbH"
+  },
+  "1000963": {
+    "serial": "1000963",
+    "model": "FC-250",
+    "delivery_date": "2006-06-25",
+    "dealer": "Orbit Parts Ltd."
+  },
+  "1000964": {
+    "serial": "1000964",
+    "model": "MC 40",
+    "delivery_date": "2006-07-20",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000965": {
+    "serial": "1000965",
+    "model": "CF 1000",
+    "delivery_date": "2010-12-08",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000966": {
+    "serial": "1000966",
+    "model": "MC 40-1",
+    "delivery_date": "2007-11-06",
+    "dealer": "West Equipment Inc."
+  },
+  "1000967": {
+    "serial": "1000967",
+    "model": "AC1",
+    "delivery_date": "2022-12-10",
+    "dealer": "Nexus Industrial GmbH"
+  },
+  "1000968": {
+    "serial": "1000968",
+    "model": "CF 1000",
+    "delivery_date": "2020-07-20",
+    "dealer": "Sud Handel GmbH"
+  },
+  "1000969": {
+    "serial": "1000969",
+    "model": "MC 40",
+    "delivery_date": "2008-03-14",
+    "dealer": "Central Tools AG"
+  },
+  "1000970": {
+    "serial": "1000970",
+    "model": "AC1",
+    "delivery_date": "2024-06-18",
+    "dealer": "Nord Technik AB"
+  },
+  "1000971": {
+    "serial": "1000971",
+    "model": "MC 40",
+    "delivery_date": "2020-06-13",
+    "dealer": "Nord Technik AB"
+  },
+  "1000972": {
+    "serial": "1000972",
+    "model": "MC 40 L",
+    "delivery_date": "2021-11-30",
+    "dealer": "Sigma Machines Co."
+  },
+  "1000973": {
+    "serial": "1000973",
+    "model": "CF 1000",
+    "delivery_date": "2022-03-13",
+    "dealer": "Example Trade Co."
+  },
+  "1000974": {
+    "serial": "1000974",
+    "model": "AC1",
+    "delivery_date": "2012-12-26",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000975": {
+    "serial": "1000975",
+    "model": "AC1",
+    "delivery_date": "2017-10-18",
+    "dealer": "Central Tools AG"
+  },
+  "1000976": {
+    "serial": "1000976",
+    "model": "FC-200",
+    "delivery_date": "2005-05-03",
+    "dealer": "Central Tools AG"
+  },
+  "1000977": {
+    "serial": "1000977",
+    "model": "MC 40-1",
+    "delivery_date": "2010-08-26",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000978": {
+    "serial": "1000978",
+    "model": "FC-250",
+    "delivery_date": "2023-08-22",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000979": {
+    "serial": "1000979",
+    "model": "MC 40",
+    "delivery_date": "2012-05-21",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000980": {
+    "serial": "1000980",
+    "model": "FC-200",
+    "delivery_date": "2008-10-23",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000981": {
+    "serial": "1000981",
+    "model": "FC-250",
+    "delivery_date": "2024-02-12",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000982": {
+    "serial": "1000982",
+    "model": "AC1",
+    "delivery_date": "2021-07-21",
+    "dealer": "Euro Parts GmbH"
+  },
+  "1000983": {
+    "serial": "1000983",
+    "model": "FC-200",
+    "delivery_date": "2016-11-22",
+    "dealer": "Demo Technik AG"
+  },
+  "1000984": {
+    "serial": "1000984",
+    "model": "FC-200",
+    "delivery_date": "2018-10-22",
+    "dealer": "West Equipment Inc."
+  },
+  "1000985": {
+    "serial": "1000985",
+    "model": "MC 40",
+    "delivery_date": "2005-06-12",
+    "dealer": "West Equipment Inc."
+  },
+  "1000986": {
+    "serial": "1000986",
+    "model": "MC 40",
+    "delivery_date": "2017-01-30",
+    "dealer": "Apex Trade Co."
+  },
+  "1000987": {
+    "serial": "1000987",
+    "model": "FC-250",
+    "delivery_date": "2015-06-27",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000988": {
+    "serial": "1000988",
+    "model": "AC1",
+    "delivery_date": "2005-04-06",
+    "dealer": "Alpha Machines GmbH"
+  },
+  "1000989": {
+    "serial": "1000989",
+    "model": "FC-200",
+    "delivery_date": "2007-03-16",
+    "dealer": "Nord Technik AB"
+  },
+  "1000990": {
+    "serial": "1000990",
+    "model": "MC 40",
+    "delivery_date": "2008-06-13",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000991": {
+    "serial": "1000991",
+    "model": "MC 40",
+    "delivery_date": "2011-08-01",
+    "dealer": "Vertex Technik AG"
+  },
+  "1000992": {
+    "serial": "1000992",
+    "model": "CF 1000",
+    "delivery_date": "2010-11-15",
+    "dealer": "Ost Maschinen GmbH"
+  },
+  "1000993": {
+    "serial": "1000993",
+    "model": "FC-200",
+    "delivery_date": "2005-02-21",
+    "dealer": "Demo Technik AG"
+  },
+  "1000994": {
+    "serial": "1000994",
+    "model": "AC1",
+    "delivery_date": "2014-08-02",
+    "dealer": "Gamma Tools Ltd."
+  },
+  "1000995": {
+    "serial": "1000995",
+    "model": "MC 40 L",
+    "delivery_date": "2011-12-01",
+    "dealer": "Test Supplies Ltd."
+  },
+  "1000996": {
+    "serial": "1000996",
+    "model": "CF 1000",
+    "delivery_date": "2006-12-13",
+    "dealer": "Prime Supplies Ltd."
+  },
+  "1000997": {
+    "serial": "1000997",
+    "model": "CF 1000",
+    "delivery_date": "2010-03-18",
+    "dealer": "Nord Technik AB"
+  },
+  "1000998": {
+    "serial": "1000998",
+    "model": "FC-200",
+    "delivery_date": "2014-06-07",
+    "dealer": "Beta Industrial AG"
+  },
+  "1000999": {
+    "serial": "1000999",
+    "model": "AC1",
+    "delivery_date": "2023-11-09",
+    "dealer": "Example Trade Co."
+  },
+  "1001000": {
+    "serial": "1001000",
+    "model": "AC1",
+    "delivery_date": "2014-10-07",
+    "dealer": "Example Trade Co."
+  }
+}

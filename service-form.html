@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GLW Service Request for Machine Repair</title>
+<style>
+  :root {
+    --glw: #bc1c53; --glw-dark: #991645; --glw-light: rgba(188,28,83,0.08);
+    --bg: #d1d6d3; --card: #ffffff; --ink: #1a1a1a; --muted: #64748b;
+    --border: rgba(0,0,0,0.12); --radius: 16px; --shadow: 0 18px 50px rgba(2,6,23,0.14);
+    --blue: #0077cc; --blue-dark: #005fa3;
+    --green: #0f7b35; --green-light: rgba(15,123,53,0.08);
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { min-height: 100vh; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: var(--bg); color: var(--ink); }
+
+  .header { background: var(--glw); color: #fff; padding: 16px 28px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 4px 20px rgba(188,28,83,0.35); position: sticky; top: 0; z-index: 100; }
+  .header__left { display: flex; align-items: center; gap: 14px; }
+  .header__logo { width: 38px; height: 38px; border-radius: 10px; background: rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 13px; border: 1px solid rgba(255,255,255,0.3); }
+  .header__title { font-weight: 800; font-size: 1.1rem; }
+  .header__sub { font-size: 0.78rem; opacity: 0.75; margin-top: 1px; }
+  .header__back { color: #fff; text-decoration: none; font-size: 0.88rem; border: 1px solid rgba(255,255,255,0.35); padding: 7px 16px; border-radius: 8px; transition: 0.15s; white-space: nowrap; }
+  .header__back:hover { background: rgba(255,255,255,0.15); }
+
+  .page-wrap { max-width: 800px; margin: 0 auto; padding: 36px 16px 70px; }
+  .form-title { text-align: center; margin-bottom: 36px; }
+  .form-title h1 { font-size: 1.9rem; color: var(--glw); margin-bottom: 8px; line-height: 1.2; }
+  .form-title p { color: var(--muted); font-size: 0.95rem; max-width: 520px; margin: 0 auto; line-height: 1.5; }
+
+  /* PROGRESS */
+  .progress-wrap { margin-bottom: 36px; }
+  .progress-steps { display: flex; justify-content: space-between; position: relative; margin-bottom: 8px; }
+  .progress-steps::before { content: ''; position: absolute; top: 21px; left: 0; right: 0; height: 3px; background: var(--border); z-index: 0; }
+  .progress-line { position: absolute; top: 21px; left: 0; height: 3px; background: var(--glw); z-index: 1; transition: width 0.4s ease; border-radius: 2px; }
+  .step-dot { display: flex; flex-direction: column; align-items: center; gap: 8px; position: relative; z-index: 2; flex: 1; }
+  .step-dot__circle { width: 44px; height: 44px; border-radius: 50%; background: #fff; border: 3px solid #dde1e7; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.9rem; color: var(--muted); transition: 0.3s; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  .step-dot__label { font-size: 0.75rem; color: var(--muted); text-align: center; font-weight: 500; }
+  .step-dot.active .step-dot__circle { background: var(--glw); border-color: var(--glw); color: #fff; box-shadow: 0 4px 16px rgba(188,28,83,0.35); transform: scale(1.08); }
+  .step-dot.active .step-dot__label { color: var(--glw); font-weight: 700; }
+  .step-dot.done .step-dot__circle { background: var(--glw); border-color: var(--glw); color: #fff; }
+  .step-dot.done .step-dot__circle::after { content: '✓'; font-size: 1rem; }
+  .step-dot.done .step-dot__circle span { display: none; }
+
+  /* CARD */
+  .card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border); overflow: hidden; }
+  .card__header { background: linear-gradient(135deg, rgba(188,28,83,0.1), rgba(188,28,83,0.03)); border-bottom: 2px solid rgba(188,28,83,0.12); padding: 28px 32px 24px; display: flex; align-items: flex-start; gap: 18px; }
+  .card__header-icon { width: 48px; height: 48px; border-radius: 14px; background: var(--glw); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; flex-shrink: 0; box-shadow: 0 6px 18px rgba(188,28,83,0.3); }
+  .card__header-text h2 { color: var(--glw); font-size: 1.3rem; margin-bottom: 5px; }
+  .card__header-text p { color: var(--muted); font-size: 0.88rem; line-height: 1.5; }
+  .card__body { padding: 32px; }
+
+  /* INFO BANNER */
+  .info-banner { background: linear-gradient(135deg, rgba(188,28,83,0.07), rgba(188,28,83,0.02)); border: 1px solid rgba(188,28,83,0.18); border-radius: 12px; padding: 16px 20px; margin-bottom: 24px; display: flex; gap: 14px; align-items: flex-start; }
+  .info-banner__icon { font-size: 1.4rem; flex-shrink: 0; }
+  .info-banner__text { font-size: 0.88rem; color: var(--muted); line-height: 1.6; }
+  .info-banner__text strong { color: var(--ink); display: block; margin-bottom: 3px; font-size: 0.92rem; }
+
+  /* CONTACT INFO CARDS */
+  .contact-info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 28px; }
+  .contact-info-card { background: linear-gradient(135deg, rgba(188,28,83,0.06), rgba(188,28,83,0.02)); border: 1px solid rgba(188,28,83,0.15); border-radius: 12px; padding: 16px 18px; display: flex; gap: 12px; align-items: flex-start; }
+  .contact-info-card__icon { font-size: 1.3rem; flex-shrink: 0; }
+  .contact-info-card__text { font-size: 0.83rem; color: var(--muted); line-height: 1.5; }
+  .contact-info-card__text strong { display: block; color: var(--ink); font-size: 0.88rem; margin-bottom: 2px; }
+
+  /* SN LOOKUP */
+  .sn-lookup-box { background: linear-gradient(135deg, rgba(188,28,83,0.06), rgba(188,28,83,0.01)); border: 2px solid rgba(188,28,83,0.2); border-radius: 14px; padding: 22px 24px; margin-bottom: 24px; }
+  .sn-lookup-box__title { font-weight: 800; font-size: 1rem; color: var(--glw); margin-bottom: 4px; }
+  .sn-lookup-box__sub { font-size: 0.84rem; color: var(--muted); margin-bottom: 14px; line-height: 1.5; }
+  .sn-input-wrap input { width: 100%; padding: 13px 16px; border: 2px solid #c7ccd1; border-radius: 10px; font: inherit; font-size: 1rem; font-weight: 600; background: #fff; color: var(--ink); transition: 0.15s; }
+  .sn-input-wrap input:focus { outline: none; border-color: var(--glw); box-shadow: 0 0 0 3px rgba(188,28,83,0.12); }
+  .sn-input-wrap input.sn-found { border-color: var(--green); box-shadow: 0 0 0 3px rgba(15,123,53,0.12); background: #f0fdf4; }
+  .sn-input-wrap input.sn-error { border-color: #dc2626; box-shadow: 0 0 0 3px rgba(220,38,38,0.1); background: #fef2f2; }
+  .sn-status { margin-top: 8px; font-size: 0.84rem; font-weight: 600; min-height: 20px; }
+  .sn-status.found { color: var(--green); }
+  .sn-status.not-found { color: #dc2626; }
+  .sn-status.loading { color: var(--muted); }
+
+  /* AUTO-FILL BADGE */
+  .autofill-badge { display: inline-flex; align-items: center; gap: 4px; background: var(--green-light); border: 1px solid rgba(15,123,53,0.25); color: var(--green); font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; margin-left: 8px; }
+  .field.autofilled input, .field.autofilled select { border-color: var(--green) !important; background: #f0fdf4 !important; }
+
+  /* FORM */
+  .form-stack { display: flex; flex-direction: column; gap: 22px; }
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .form-grid .full { grid-column: 1 / -1; }
+  .field { display: flex; flex-direction: column; gap: 7px; }
+  .field label { font-weight: 600; font-size: 0.9rem; color: var(--ink); display: flex; align-items: center; flex-wrap: wrap; gap: 4px; }
+  .field label .req { color: var(--glw); }
+  .field .hint { font-size: 0.8rem; color: var(--muted); line-height: 1.4; }
+
+  input[type=text], input[type=email], input[type=tel], input[type=date], select, textarea {
+    width: 100%; padding: 12px 15px; border: 1.5px solid #c7ccd1; border-radius: 10px;
+    font: inherit; font-size: 0.95rem; background: #fafafa; color: var(--ink); transition: 0.15s;
+  }
+  input:focus, select:focus, textarea:focus { outline: none; border-color: var(--glw); box-shadow: 0 0 0 3px rgba(188,28,83,0.12); background: #fff; }
+  input.field-error, select.field-error, textarea.field-error { border-color: #dc2626 !important; background: #fef2f2 !important; }
+  textarea { resize: vertical; min-height: 120px; }
+  select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 13px center; padding-right: 38px; }
+
+  /* RADIO & CHECKBOX */
+  .radio-group, .check-group { display: flex; flex-direction: column; gap: 10px; }
+  .radio-option, .check-option { display: flex; align-items: center; gap: 12px; padding: 12px 16px; border: 1.5px solid #c7ccd1; border-radius: 10px; cursor: pointer; transition: 0.15s; background: #fafafa; font-size: 0.93rem; }
+  .radio-option:hover, .check-option:hover { border-color: var(--glw); background: var(--glw-light); }
+  .radio-option input, .check-option input { accent-color: var(--glw); width: 17px; height: 17px; cursor: pointer; flex-shrink: 0; }
+  .radio-option.selected, .check-option.selected { border-color: var(--glw); background: var(--glw-light); }
+  .radio-group.field-error, .check-group.field-error { border: 1.5px solid #dc2626; border-radius: 10px; padding: 8px; background: #fef2f2; }
+
+  /* SECTION DIVIDER */
+  .section-label { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; color: var(--glw); margin: 28px 0 16px; display: flex; align-items: center; gap: 12px; }
+  .section-label::after { content: ''; flex: 1; height: 1.5px; background: rgba(188,28,83,0.18); }
+  .section-label:first-child { margin-top: 0; }
+
+  /* QUESTION ROW */
+  .question-row { display: flex; flex-direction: column; gap: 7px; }
+  .question-label { font-weight: 600; font-size: 0.9rem; color: var(--ink); display: flex; gap: 8px; }
+  .question-num { color: var(--glw); font-weight: 800; min-width: 22px; }
+  .question-hint { font-size: 0.8rem; color: var(--muted); margin-left: 30px; line-height: 1.4; }
+
+  /* FILE UPLOAD */
+  .upload-zone { border: 2px dashed #c7ccd1; border-radius: 12px; padding: 36px 20px; text-align: center; cursor: pointer; transition: 0.2s; background: #fafafa; }
+  .upload-zone:hover, .upload-zone.dragover { border-color: var(--glw); background: var(--glw-light); }
+  .upload-zone__icon { font-size: 2.5rem; margin-bottom: 10px; }
+  .upload-zone__text { font-weight: 700; color: var(--ink); margin-bottom: 5px; font-size: 0.97rem; }
+  .upload-zone__sub { font-size: 0.82rem; color: var(--muted); }
+  .upload-zone input { display: none; }
+  .file-list { margin-top: 14px; display: flex; flex-direction: column; gap: 8px; }
+  .file-item { display: flex; align-items: center; justify-content: space-between; padding: 9px 14px; background: var(--glw-light); border-radius: 8px; font-size: 0.85rem; border: 1px solid rgba(188,28,83,0.15); }
+  .file-item__remove { background: none; border: none; cursor: pointer; color: var(--glw); font-size: 1.1rem; padding: 0 4px; }
+
+  /* TERMS */
+  .terms-box { border: 1.5px solid #c7ccd1; border-radius: 12px; padding: 18px 20px; background: #fafafa; max-height: 170px; overflow-y: auto; font-size: 0.85rem; color: var(--muted); line-height: 1.7; margin-bottom: 16px; }
+  .terms-accept { display: flex; align-items: flex-start; gap: 13px; padding: 15px 18px; border: 1.5px solid #c7ccd1; border-radius: 10px; cursor: pointer; transition: 0.15s; font-size: 0.93rem; }
+  .terms-accept:hover { border-color: var(--glw); background: var(--glw-light); }
+  .terms-accept.accepted { border-color: var(--glw); background: var(--glw-light); }
+  .terms-accept input { accent-color: var(--glw); width: 18px; height: 18px; cursor: pointer; flex-shrink: 0; margin-top: 2px; }
+
+  /* NAV */
+  .nav-row { display: flex; justify-content: space-between; align-items: center; margin-top: 32px; gap: 12px; }
+  .btn { padding: 13px 30px; border-radius: 10px; border: none; cursor: pointer; font: inherit; font-weight: 600; font-size: 0.95rem; transition: 0.15s; display: inline-flex; align-items: center; gap: 8px; }
+  .btn--back { background: #fff; border: 1.5px solid var(--border); color: var(--muted); }
+  .btn--back:hover { border-color: #999; color: var(--ink); }
+  .btn--next { background: var(--glw); color: #fff; box-shadow: 0 6px 20px rgba(188,28,83,0.28); }
+  .btn--next:hover { background: var(--glw-dark); }
+  .btn--submit { background: var(--blue); color: #fff; box-shadow: 0 6px 20px rgba(0,119,204,0.28); }
+  .btn--submit:hover { background: var(--blue-dark); }
+  .btn--submit:disabled { background: #94a3b8; box-shadow: none; cursor: not-allowed; }
+
+  /* ERROR BOX */
+  .page-error { color: #dc2626; font-size: 0.85rem; font-weight: 600; padding: 11px 15px; background: #fef2f2; border: 1px solid #fca5a5; border-radius: 8px; margin-top: 18px; display: none; }
+  .page-error.show { display: block; }
+
+  /* SUCCESS */
+  .success-screen { text-align: center; padding: 56px 24px; }
+  .success-screen__icon { font-size: 4.5rem; margin-bottom: 22px; }
+  .success-screen h2 { color: #0f7b35; font-size: 1.7rem; margin-bottom: 12px; }
+  .success-screen p { color: var(--muted); line-height: 1.6; max-width: 440px; margin: 0 auto 28px; }
+  .btn--home { background: var(--glw); color: #fff; padding: 13px 30px; border-radius: 10px; text-decoration: none; font-weight: 700; display: inline-block; box-shadow: 0 6px 20px rgba(188,28,83,0.28); }
+
+  .step-page { display: none; }
+  .step-page.active { display: block; }
+  .other-country-wrap { margin-top: 10px; display: none; }
+  .other-country-wrap.show { display: block; }
+
+  @media (max-width: 620px) {
+    .form-grid { grid-template-columns: 1fr; }
+    .card__header { padding: 20px; flex-direction: column; gap: 12px; }
+    .card__body { padding: 20px; }
+    .contact-info-grid { grid-template-columns: 1fr; }
+    .step-dot__label { display: none; }
+    .step-dot__circle { width: 36px; height: 36px; font-size: 0.82rem; }
+    .progress-steps::before, .progress-line { top: 18px; }
+    .header__sub { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header__left">
+    <div class="header__logo">GLW</div>
+    <div>
+      <div class="header__title">GLW Service Portal</div>
+      <div class="header__sub">Machine Repair Request</div>
+    </div>
+  </div>
+  <a href="index.html" class="header__back">← Back to Homepage</a>
+</header>
+
+<div class="page-wrap">
+  <div class="form-title">
+    <h1>GLW Service Request for Machine Repair</h1>
+    <p>Please complete all 4 steps. All fields are required. The more detail you provide, the faster our technicians can help you.</p>
+  </div>
+
+  <div class="progress-wrap">
+    <div class="progress-steps" id="progressSteps">
+      <div class="progress-line" id="progressLine" style="width:0%"></div>
+      <div class="step-dot active"><div class="step-dot__circle"><span>1</span></div><div class="step-dot__label">Machine</div></div>
+      <div class="step-dot"><div class="step-dot__circle"><span>2</span></div><div class="step-dot__label">Problem</div></div>
+      <div class="step-dot"><div class="step-dot__circle"><span>3</span></div><div class="step-dot__label">Contact</div></div>
+      <div class="step-dot"><div class="step-dot__circle"><span>4</span></div><div class="step-dot__label">Submit</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+
+    <!-- STEP 1: MACHINE -->
+    <div class="step-page active" id="step-0">
+      <div class="card__header">
+        <div class="card__header-icon">⚙️</div>
+        <div class="card__header-text">
+          <h2>A. Machine Information</h2>
+          <p>Enter your serial number to auto-load machine details. All fields are required.</p>
+        </div>
+      </div>
+      <div class="card__body">
+
+        <div class="sn-lookup-box">
+          <div class="sn-lookup-box__title">🔎 Smart Serial Number Lookup</div>
+          <div class="sn-lookup-box__sub">Type your serial number — Model, Delivery Date, and Dealer will be filled automatically if found in our database.</div>
+          <div class="sn-input-wrap">
+            <input type="text" id="a_serial" placeholder="Enter serial number e.g. 0893502" autocomplete="off" />
+            <div class="sn-status" id="snStatus"></div>
+          </div>
+        </div>
+
+        <div class="info-banner">
+          <div class="info-banner__icon">💡</div>
+          <div class="info-banner__text">
+            <strong>Where to find your serial number?</strong>
+            The serial number is on the silver label on the back or side of your machine. Software version is visible on the display under Settings → Info.
+          </div>
+        </div>
+
+        <div class="form-grid">
+          <div class="field" id="field_model">
+            <label>Model <span class="req">*</span></label>
+            <select id="a_model">
+              <option value="">— Select model —</option>
+              <option value="MC 40">MC 40</option>
+              <option value="MC 40-1">MC 40-1</option>
+              <option value="MC 40 L">MC 40 L</option>
+              <option value="CF 1000">CF 1000</option>
+              <option value="FC-200">FC-200</option>
+              <option value="FC-250">FC-250</option>
+              <option value="AC1">AC1</option>
+            </select>
+          </div>
+
+          <div class="field" id="field_delivery">
+            <label>Delivery Date <span class="req">*</span></label>
+            <input type="date" id="a_purchase_date" />
+            <span class="hint">Auto-filled from database, or pick a date manually.</span>
+          </div>
+
+          <div class="field" id="field_dealer">
+            <label>Dealer (Händler) <span class="req">*</span></label>
+            <input type="text" id="a_dealer" placeholder="e.g. Novitas, Mecatronic — auto-filled or type manually" />
+          </div>
+
+          <div class="field">
+            <label>Current Software Version <span class="req">*</span></label>
+            <input type="text" id="a_software" placeholder="e.g. v2.4.1 (visible on display)" />
+          </div>
+
+          <div class="field">
+            <label>Operating Air Pressure <span class="req">*</span></label>
+            <input type="text" id="a_pressure" placeholder="e.g. 5.5 bar" />
+          </div>
+
+          <div class="field">
+            <label>Previous Service / Ticket Number <span class="req">*</span></label>
+            <input type="text" id="a_ticket" placeholder="e.g. SRV-2024-0087, or write 'None'" />
+          </div>
+        </div>
+
+        <div class="page-error" id="err-0">⚠ Please fill in ALL fields above before continuing.</div>
+      </div>
+    </div>
+
+    <!-- STEP 2: PROBLEM -->
+    <div class="step-page" id="step-1">
+      <div class="card__header">
+        <div class="card__header-icon">🔍</div>
+        <div class="card__header-text">
+          <h2>B. Problem Description</h2>
+          <p>All questions are required. The more detail you provide, the quicker we can diagnose the problem.</p>
+        </div>
+      </div>
+      <div class="card__body">
+
+        <div class="section-label">Issue Details</div>
+        <div class="form-stack">
+
+          <div class="question-row">
+            <div class="question-label"><span class="question-num">1.</span> What is the precise issue? <span class="req" style="color:var(--glw);">*</span></div>
+            <div class="question-hint">Describe the problem in as much detail as possible.</div>
+            <textarea id="b_issue" placeholder="e.g. The machine stops mid-cycle, crimping result is inconsistent, red light appears..."></textarea>
+          </div>
+
+          <div class="question-row">
+            <div class="question-label"><span class="question-num">2.</span> When did the problem start? <span class="req" style="color:var(--glw);">*</span></div>
+            <div class="question-hint">e.g. After recent maintenance, after transport, suddenly during normal operation.</div>
+            <input type="text" id="b_when" placeholder="Describe when the issue first appeared..." />
+          </div>
+        </div>
+
+        <div class="section-label">Frequency &amp; Mode</div>
+        <div class="form-stack">
+
+          <div class="question-row">
+            <div class="question-label"><span class="question-num">3.</span> Does the issue occur always or only sometimes? <span class="req" style="color:var(--glw);">*</span></div>
+            <div class="radio-group" id="b_frequency" style="margin-top:8px;">
+              <label class="radio-option"><input type="radio" name="b_freq" value="Always" /> Always</label>
+              <label class="radio-option"><input type="radio" name="b_freq" value="Sometimes" /> Sometimes</label>
+              <label class="radio-option"><input type="radio" name="b_freq" value="After X cycles" /> After X cycles</label>
+              <label class="radio-option"><input type="radio" name="b_freq" value="Randomly" /> Randomly</label>
+            </div>
+          </div>
+
+          <div class="question-row">
+            <div class="question-label"><span class="question-num">4.</span> Which operation mode shows the problem? <span class="req" style="color:var(--glw);">*</span></div>
+            <div class="question-hint">Select all that apply.</div>
+            <div class="check-group" id="b_mode" style="margin-top:8px;">
+              <label class="check-option"><input type="checkbox" value="Stripping only" /> Stripping only</label>
+              <label class="check-option"><input type="checkbox" value="Crimping only" /> Crimping only</label>
+              <label class="check-option"><input type="checkbox" value="Strip + Crimp combined" /> Strip + Crimp combined</label>
+              <label class="check-option"><input type="checkbox" value="Other" /> Other — please specify in Additional Notes (Step 4)</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-label">Material &amp; Tooling</div>
+        <div class="form-stack">
+
+          <div class="question-row">
+            <div class="question-label"><span class="question-num">5.</span> What wire size and type are you processing? <span class="req" style="color:var(--glw);">*</span></div>
+            <div class="question-hint">e.g. 0.5 mm² PVC, AWG 20 UL1015, special insulation type.</div>
+            <input type="text" id="b_wire" placeholder="e.g. 0.5 mm² PVC, AWG 20 UL1015" />
+          </div>
+
+          <div class="question-row">
+            <div class="question-label"><span class="question-num">6.</span> What ferrules or terminals are you using? <span class="req" style="color:var(--glw);">*</span></div>
+            <div class="question-hint">e.g. GLW 0.5-8, Third-party TA0.5-8.</div>
+            <input type="text" id="b_ferrules" placeholder="e.g. GLW 0.5-8, Third-party TA0.5-8" />
+          </div>
+        </div>
+
+        <div class="section-label">Diagnostics</div>
+        <div class="form-stack">
+
+          <div class="question-row">
+            <div class="question-label"><span class="question-num">7.</span> Error messages or codes on display? <span class="req" style="color:var(--glw);">*</span></div>
+            <div class="question-hint">Write the exact code, or write "None" if no error message appeared.</div>
+            <input type="text" id="b_error_code" placeholder="e.g. ERR-04, Pressure Fault, or None" />
+          </div>
+
+          <div class="question-row">
+            <div class="question-label"><span class="question-num">8.</span> What troubleshooting steps have you already performed? <span class="req" style="color:var(--glw);">*</span></div>
+            <div class="question-hint">e.g. cleaned blades, adjusted locator, checked air pressure, rebooted machine.</div>
+            <textarea id="b_troubleshooting" placeholder="List all steps you have already tried, or write 'None'..."></textarea>
+          </div>
+
+          <div class="question-row">
+            <div class="question-label"><span class="question-num">9.</span> Has the machine been opened or modified recently? <span class="req" style="color:var(--glw);">*</span></div>
+            <div class="radio-group" id="b_modified" style="margin-top:8px;">
+              <label class="radio-option"><input type="radio" name="b_mod" value="No" /> No</label>
+              <label class="radio-option"><input type="radio" name="b_mod" value="Yes" /> Yes — please explain below</label>
+            </div>
+            <input type="text" id="b_modified_explain" placeholder="If Yes: describe what was opened or modified..." style="margin-top:10px;" />
+          </div>
+        </div>
+
+        <div class="page-error" id="err-1">⚠ Please answer ALL questions above before continuing.</div>
+      </div>
+    </div>
+
+    <!-- STEP 3: CONTACT -->
+    <div class="step-page" id="step-2">
+      <div class="card__header">
+        <div class="card__header-icon">📋</div>
+        <div class="card__header-text">
+          <h2>C. Contact Details</h2>
+          <p>All fields are required. Your information allows our service team to reach you directly.</p>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="contact-info-grid">
+          <div class="contact-info-card"><div class="contact-info-card__icon">📧</div><div class="contact-info-card__text"><strong>Email Response</strong>Our team replies within 1–2 business days.</div></div>
+          <div class="contact-info-card"><div class="contact-info-card__icon">🔒</div><div class="contact-info-card__text"><strong>Data Protection</strong>Secure, GDPR compliant. Never shared.</div></div>
+          <div class="contact-info-card"><div class="contact-info-card__icon">📞</div><div class="contact-info-card__text"><strong>Phone Support</strong>For urgent issues we may call you directly.</div></div>
+          <div class="contact-info-card"><div class="contact-info-card__icon">🌍</div><div class="contact-info-card__text"><strong>International</strong>We support customers worldwide.</div></div>
+        </div>
+        <div class="form-grid">
+          <div class="field">
+            <label>Company Name <span class="req">*</span></label>
+            <input type="text" id="c_company" placeholder="Your company name" />
+          </div>
+          <div class="field">
+            <label>Contact Person <span class="req">*</span></label>
+            <input type="text" id="c_name" placeholder="Your full name" />
+          </div>
+          <div class="field">
+            <label>Country <span class="req">*</span></label>
+            <select id="c_country">
+              <option value="">— Select country —</option>
+              <option>Germany</option><option>Austria</option><option>Switzerland</option>
+              <option>Nepal</option><option>United States</option><option>United Kingdom</option>
+              <option>France</option><option>Italy</option><option>Spain</option>
+              <option>Netherlands</option><option>Belgium</option><option>Poland</option>
+              <option>Czech Republic</option><option>Sweden</option><option>Norway</option>
+              <option>Denmark</option><option>Finland</option><option>Portugal</option>
+              <option>Hungary</option><option>Romania</option><option>Turkey</option>
+              <option>China</option><option>Japan</option><option>South Korea</option>
+              <option>India</option><option>Brazil</option><option>Canada</option>
+              <option>Australia</option><option>Mexico</option><option>Russia</option>
+              <option>Other</option>
+            </select>
+            <div class="other-country-wrap" id="otherCountryWrap">
+              <input type="text" id="c_country_other" placeholder="Please type your country name..." />
+            </div>
+          </div>
+          <div class="field">
+            <label>Full Address <span class="req">*</span></label>
+            <input type="text" id="c_address" placeholder="Street, City, Postal Code" />
+          </div>
+          <div class="field">
+            <label>Email <span class="req">*</span></label>
+            <input type="email" id="c_email" placeholder="your@email.com" />
+            <span class="hint">Service confirmation will be sent here.</span>
+          </div>
+          <div class="field">
+            <label>Phone Number <span class="req">*</span></label>
+            <input type="tel" id="c_phone" placeholder="+49 123 456789" />
+            <span class="hint">Include country code for international numbers.</span>
+          </div>
+        </div>
+        <div class="page-error" id="err-2">⚠ Please fill in ALL contact fields before continuing.</div>
+      </div>
+    </div>
+
+    <!-- STEP 4: SUBMIT -->
+    <div class="step-page" id="step-3">
+      <div class="card__header">
+        <div class="card__header-icon">📤</div>
+        <div class="card__header-text">
+          <h2>D · E · F. Media, Action &amp; Submit</h2>
+          <p>Upload supporting files, select your preferred support type, and submit your request.</p>
+        </div>
+      </div>
+      <div class="card__body">
+
+        <div class="section-label">D. Media &amp; Evidence</div>
+        <div class="field">
+          <label>Upload Photos or Short Video <span class="req">*</span></label>
+          <div class="hint" style="margin-bottom:10px;">Recommended: crimp result, machine setup, error message on screen. Max 20 MB per file.</div>
+          <div class="upload-zone" id="uploadZone">
+            <div class="upload-zone__icon">📎</div>
+            <div class="upload-zone__text">Click to upload or drag &amp; drop files here</div>
+            <div class="upload-zone__sub">Images (JPG, PNG, WEBP) or Videos (MP4, MOV) — max 20 MB each</div>
+            <input type="file" id="fileInput" multiple accept="image/*,video/*" />
+          </div>
+          <div class="file-list" id="fileList"></div>
+        </div>
+
+        <div class="section-label">E. Preferred Action</div>
+        <div class="field">
+          <label>What kind of support are you looking for? <span class="req">*</span></label>
+          <div class="radio-group" id="e_support" style="margin-top:8px;">
+            <label class="radio-option"><input type="radio" name="e_sup" value="Remote Support" /> 🖥️ &nbsp; Remote Support needed</label>
+            <label class="radio-option"><input type="radio" name="e_sup" value="Repair Quotation" /> 📄 &nbsp; Request a repair quotation</label>
+            <label class="radio-option"><input type="radio" name="e_sup" value="Send for Inspection" /> 📦 &nbsp; Send machine for inspection</label>
+          </div>
+        </div>
+
+        <div class="section-label">F. Additional Notes</div>
+        <div class="field">
+          <label>Any other relevant information or special urgency <span class="req">*</span></label>
+          <textarea id="f_notes" placeholder="e.g. Production is stopped — urgent. Or: no rush, scheduled maintenance."></textarea>
+        </div>
+
+        <div class="section-label">Terms &amp; Conditions</div>
+        <div class="terms-box">
+          <strong>GLW Service Request Terms</strong><br /><br />
+          By submitting this form, you confirm that the information provided is accurate and complete to the best of your knowledge. GLW will use the data submitted here solely for the purpose of processing your service request and contacting you regarding the repair or support of your machine.<br /><br />
+          GLW reserves the right to request additional information before processing the request. Submission of this form does not constitute a binding service contract. A formal quotation or service confirmation will be issued separately.<br /><br />
+          Your contact data will be processed in accordance with our Privacy Policy (GDPR compliant). Data will not be shared with third parties without your consent.<br /><br />
+          Response times may vary depending on workload and the nature of the issue. For urgent matters, please also contact our service hotline directly.
+        </div>
+        <label class="terms-accept" id="termsLabel">
+          <input type="checkbox" id="termsCheck" />
+          I have read and accept the Terms &amp; Conditions for this service request.
+        </label>
+        <div class="page-error" id="err-3">⚠ Please upload at least one file, select a support type, fill Additional Notes, and accept the Terms &amp; Conditions.</div>
+      </div>
+    </div>
+
+    <!-- SUCCESS -->
+    <div class="step-page" id="step-success">
+      <div class="success-screen">
+        <div class="success-screen__icon">✅</div>
+        <h2>Request Submitted Successfully!</h2>
+        <p>Thank you. Your service request has been sent to our GLW team. We will review your submission and get back to you within 1–2 business days.</p>
+        <a href="index.html" class="btn--home">← Back to Homepage</a>
+      </div>
+    </div>
+
+  </div><!-- /card -->
+
+  <div class="nav-row" id="navRow">
+    <button class="btn btn--back" id="btnBack" style="visibility:hidden;">← Back</button>
+    <button class="btn btn--next" id="btnNext">Next →</button>
+    <button class="btn btn--submit" id="btnSubmit" style="display:none;" disabled>Send Request ✉</button>
+  </div>
+
+</div><!-- /page-wrap -->
+
+<script>
+  const SERVICE_EMAIL = "glwtest1986@gmail.com";
+  let currentStep = 0;
+  const TOTAL_STEPS = 4;
+  const uploadedFiles = [];
+  let machineDB = {};
+  let snLookupTimer = null;
+
+  // Load machines.json
+  fetch('./machines_dummy.json')
+    .then(r => r.json())
+    .then(data => { machineDB = data; console.log('[GLW] DB loaded:', Object.keys(machineDB).length); })
+    .catch(e => console.warn('[GLW] machines.json not loaded:', e));
+
+  // ── SN LOOKUP ──────────────────────────────────────────────
+  function normalizeSN(sn) {
+    return String(sn).trim().replace(/[\s\-]/g, '').toUpperCase();
+  }
+
+  function setModelDropdown(modelValue) {
+    const sel = document.getElementById('a_model');
+    const norm = (s) => String(s).trim().toLowerCase().replace(/[\s\-]+/g, '');
+    const target = norm(modelValue);
+    // Try to find a matching option
+    let matched = false;
+    for (let opt of sel.options) {
+      if (norm(opt.value) === target || norm(opt.text) === target) {
+        sel.value = opt.value;
+        matched = true;
+        break;
+      }
+    }
+    if (!matched) {
+      // Fallback: direct assignment (may not match any option but shows the value)
+      sel.value = modelValue;
+    }
+    return sel.value !== '';
+  }
+
+  function doLookup(rawSN) {
+    const statusEl = document.getElementById('snStatus');
+    const snInput  = document.getElementById('a_serial');
+    const key      = normalizeSN(rawSN);
+
+    if (key.length < 3) {
+      statusEl.textContent = ''; statusEl.className = 'sn-status';
+      snInput.className = ''; clearAutofill(); return;
+    }
+    if (!Object.keys(machineDB).length) {
+      statusEl.textContent = '⚠ Database not loaded. Please fill fields manually.';
+      statusEl.className = 'sn-status not-found'; return;
+    }
+
+    let entry = machineDB[key]
+      || machineDB[key.replace(/^0+/, '') || '0']
+      || machineDB[key.padStart(7, '0')];
+
+    if (entry) {
+      snInput.className = 'sn-found';
+      statusEl.innerHTML = '✅ Machine found — fields filled automatically!';
+      statusEl.className = 'sn-status found';
+      if (entry.model) {
+        const ok = setModelDropdown(entry.model);
+        markAutofilled('field_model', ok);
+      }
+      if (entry.delivery_date) {
+        document.getElementById('a_purchase_date').value = entry.delivery_date;
+        markAutofilled('field_delivery', true);
+      }
+      if (entry.dealer) {
+        document.getElementById('a_dealer').value = entry.dealer;
+        markAutofilled('field_dealer', true);
+      }
+    } else {
+      snInput.className = 'sn-error';
+      statusEl.innerHTML = '❌ Unknown serial number. Please check and try again, or fill the fields manually.';
+      statusEl.className = 'sn-status not-found';
+      clearAutofill();
+    }
+  }
+
+  function markAutofilled(fieldId, yes) {
+    const field = document.getElementById(fieldId);
+    if (!field) return;
+    field.classList.toggle('autofilled', yes);
+    const label = field.querySelector('label');
+    if (!label) return;
+    const existing = label.querySelector('.autofill-badge');
+    if (yes && !existing) {
+      const b = document.createElement('span');
+      b.className = 'autofill-badge'; b.textContent = '✓ Auto-filled';
+      label.appendChild(b);
+    } else if (!yes && existing) { existing.remove(); }
+  }
+  function clearAutofill() {
+    ['field_model','field_delivery','field_dealer'].forEach(id => markAutofilled(id, false));
+  }
+
+  document.getElementById('a_serial').addEventListener('input', function() {
+    clearTimeout(snLookupTimer);
+    const val = this.value.trim();
+    if (!val) {
+      document.getElementById('snStatus').textContent = '';
+      document.getElementById('snStatus').className = 'sn-status';
+      this.className = ''; clearAutofill(); return;
+    }
+    document.getElementById('snStatus').textContent = 'Searching…';
+    document.getElementById('snStatus').className = 'sn-status loading';
+    snLookupTimer = setTimeout(() => doLookup(val), 400);
+  });
+
+  // ── COUNTRY OTHER ──────────────────────────────────────────
+  document.getElementById('c_country').addEventListener('change', function() {
+    const wrap = document.getElementById('otherCountryWrap');
+    wrap.classList.toggle('show', this.value === 'Other');
+    if (this.value !== 'Other') document.getElementById('c_country_other').value = '';
+  });
+
+  // ── STEP NAV ───────────────────────────────────────────────
+  function showStep(n) {
+    document.querySelectorAll('.step-page').forEach(p => p.classList.remove('active'));
+    document.getElementById('step-' + n).classList.add('active');
+    document.querySelectorAll('.step-dot').forEach((dot, i) => {
+      dot.classList.remove('active','done');
+      if (i < n) dot.classList.add('done');
+      else if (i === n) dot.classList.add('active');
+    });
+    document.getElementById('progressLine').style.width = (n === 0 ? 0 : (n/(TOTAL_STEPS-1))*100) + '%';
+    document.getElementById('btnBack').style.visibility = n > 0 ? 'visible' : 'hidden';
+    if (n < TOTAL_STEPS - 1) { document.getElementById('btnNext').style.display=''; document.getElementById('btnSubmit').style.display='none'; }
+    else { document.getElementById('btnNext').style.display='none'; document.getElementById('btnSubmit').style.display=''; updateSubmitState(); }
+  }
+
+  // ── VALIDATION ──────────────────────────────────────────────
+  function validateStep(n) {
+    const err = document.getElementById('err-' + n);
+    err.classList.remove('show');
+    let valid = true;
+
+    function req(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      const empty = !el.value.trim();
+      el.classList.toggle('field-error', empty);
+      if (empty) valid = false;
+    }
+
+    if (n === 0) {
+      // Model: check select value
+      const modelSel = document.getElementById('a_model');
+      if (!modelSel.value) { modelSel.classList.add('field-error'); valid = false; }
+      else modelSel.classList.remove('field-error');
+      // Date
+      const dateEl = document.getElementById('a_purchase_date');
+      if (!dateEl.value) { dateEl.classList.add('field-error'); valid = false; }
+      else dateEl.classList.remove('field-error');
+      req('a_serial'); req('a_dealer'); req('a_software'); req('a_pressure'); req('a_ticket');
+    }
+    if (n === 1) {
+      req('b_issue'); req('b_when'); req('b_wire'); req('b_ferrules');
+      req('b_error_code'); req('b_troubleshooting');
+      if (!document.querySelector('input[name="b_freq"]:checked')) {
+        document.getElementById('b_frequency').classList.add('field-error'); valid = false;
+      } else { document.getElementById('b_frequency').classList.remove('field-error'); }
+      if (!document.querySelector('#b_mode input:checked')) {
+        document.getElementById('b_mode').classList.add('field-error'); valid = false;
+      } else { document.getElementById('b_mode').classList.remove('field-error'); }
+      if (!document.querySelector('input[name="b_mod"]:checked')) {
+        document.getElementById('b_modified').classList.add('field-error'); valid = false;
+      } else { document.getElementById('b_modified').classList.remove('field-error'); }
+    }
+    if (n === 2) {
+      req('c_company'); req('c_name'); req('c_address'); req('c_email'); req('c_phone');
+      const country = document.getElementById('c_country').value;
+      if (!country) { document.getElementById('c_country').classList.add('field-error'); valid = false; }
+      else { document.getElementById('c_country').classList.remove('field-error'); }
+      if (country === 'Other') {
+        const oc = document.getElementById('c_country_other');
+        if (!oc.value.trim()) { oc.classList.add('field-error'); valid = false; }
+        else oc.classList.remove('field-error');
+      }
+    }
+    if (n === 3) {
+      req('f_notes');
+      if (!document.querySelector('input[name="e_sup"]:checked')) {
+        document.getElementById('e_support').classList.add('field-error'); valid = false;
+      } else { document.getElementById('e_support').classList.remove('field-error'); }
+      if (uploadedFiles.length === 0) {
+        document.getElementById('uploadZone').style.borderColor = '#dc2626';
+        document.getElementById('uploadZone').style.background = '#fef2f2';
+        valid = false;
+      } else {
+        document.getElementById('uploadZone').style.borderColor = '';
+        document.getElementById('uploadZone').style.background = '';
+      }
+      if (!document.getElementById('termsCheck').checked) valid = false;
+    }
+
+    if (!valid) err.classList.add('show');
+    return valid;
+  }
+
+  document.getElementById('btnNext').addEventListener('click', () => {
+    if (!validateStep(currentStep)) return;
+    currentStep++; showStep(currentStep);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  document.getElementById('btnBack').addEventListener('click', () => {
+    currentStep--; showStep(currentStep);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // ── RADIO / CHECKBOX STYLING ───────────────────────────────
+  document.querySelectorAll('.radio-group').forEach(g => {
+    g.addEventListener('change', () => {
+      g.querySelectorAll('.radio-option').forEach(o => o.classList.toggle('selected', o.querySelector('input').checked));
+      g.classList.remove('field-error');
+      updateSubmitState();
+    });
+  });
+  document.querySelectorAll('.check-group').forEach(g => {
+    g.addEventListener('change', () => {
+      g.querySelectorAll('.check-option').forEach(o => o.classList.toggle('selected', o.querySelector('input').checked));
+      g.classList.remove('field-error');
+    });
+  });
+
+  document.querySelectorAll('input, select, textarea').forEach(el => {
+    el.addEventListener('input', () => el.classList.remove('field-error'));
+    el.addEventListener('change', () => el.classList.remove('field-error'));
+  });
+
+  // ── TERMS ──────────────────────────────────────────────────
+  document.getElementById('termsCheck').addEventListener('change', function() {
+    document.getElementById('termsLabel').classList.toggle('accepted', this.checked);
+    updateSubmitState();
+  });
+  function updateSubmitState() {
+    const sup   = document.querySelector('input[name="e_sup"]:checked');
+    const terms = document.getElementById('termsCheck').checked;
+    document.getElementById('btnSubmit').disabled = !(sup && terms);
+  }
+
+  // ── FILE UPLOAD ────────────────────────────────────────────
+  const uploadZone = document.getElementById('uploadZone');
+  const fileInput  = document.getElementById('fileInput');
+  const fileList   = document.getElementById('fileList');
+  uploadZone.addEventListener('click', () => fileInput.click());
+  uploadZone.addEventListener('dragover', e => { e.preventDefault(); uploadZone.classList.add('dragover'); });
+  uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('dragover'));
+  uploadZone.addEventListener('drop', e => { e.preventDefault(); uploadZone.classList.remove('dragover'); handleFiles(Array.from(e.dataTransfer.files)); });
+  fileInput.addEventListener('change', () => { handleFiles(Array.from(fileInput.files)); fileInput.value = ''; });
+  function handleFiles(files) {
+    files.forEach(file => {
+      if (file.size > 20*1024*1024) { alert(`"${file.name}" exceeds 20 MB.`); return; }
+      uploadedFiles.push(file);
+      const item = document.createElement('div');
+      item.className = 'file-item';
+      item.innerHTML = `<span>📄 ${file.name} <span style="color:var(--muted);font-size:0.8rem;">(${(file.size/1024/1024).toFixed(2)} MB)</span></span><button class="file-item__remove">✕</button>`;
+      item.querySelector('.file-item__remove').addEventListener('click', () => {
+        const i = uploadedFiles.indexOf(file);
+        if (i > -1) uploadedFiles.splice(i, 1);
+        item.remove();
+      });
+      fileList.appendChild(item);
+      uploadZone.style.borderColor = '';
+      uploadZone.style.background = '';
+    });
+  }
+
+  // ── SUBMIT ─────────────────────────────────────────────────
+  document.getElementById('btnSubmit').addEventListener('click', async () => {
+    if (!validateStep(3)) return;
+    const btn = document.getElementById('btnSubmit');
+    btn.disabled = true; btn.textContent = 'Sending…';
+    const checkedModes = Array.from(document.querySelectorAll('#b_mode input:checked')).map(i => i.value);
+    const freq = document.querySelector('input[name="b_freq"]:checked');
+    const mod  = document.querySelector('input[name="b_mod"]:checked');
+    const sup  = document.querySelector('input[name="e_sup"]:checked');
+    const countryVal = document.getElementById('c_country').value;
+    const countryFinal = countryVal === 'Other' ? document.getElementById('c_country_other').value : countryVal;
+    const fd = new FormData();
+    fd.append('_subject',  `GLW Service Request – ${document.getElementById('a_model').value} SN:${document.getElementById('a_serial').value}`);
+    fd.append('_captcha', 'false');
+    fd.append('_template', 'table');
+    fd.append('Serial Number',          document.getElementById('a_serial').value);
+    fd.append('Model',                  document.getElementById('a_model').value);
+    fd.append('Delivery Date',          document.getElementById('a_purchase_date').value);
+    fd.append('Dealer (Händler)',        document.getElementById('a_dealer').value);
+    fd.append('Software Version',       document.getElementById('a_software').value);
+    fd.append('Operating Air Pressure', document.getElementById('a_pressure').value);
+    fd.append('Previous Ticket Number', document.getElementById('a_ticket').value);
+    fd.append('Issue Description',      document.getElementById('b_issue').value);
+    fd.append('Problem Start',          document.getElementById('b_when').value);
+    fd.append('Frequency',              freq ? freq.value : '—');
+    fd.append('Operation Mode',         checkedModes.join(', ') || '—');
+    fd.append('Wire Size and Type',     document.getElementById('b_wire').value);
+    fd.append('Ferrules / Terminals',   document.getElementById('b_ferrules').value);
+    fd.append('Error Messages / Codes', document.getElementById('b_error_code').value);
+    fd.append('Troubleshooting Done',   document.getElementById('b_troubleshooting').value);
+    fd.append('Machine Modified',       mod ? mod.value : '—');
+    fd.append('Modification Detail',    document.getElementById('b_modified_explain').value || '—');
+    fd.append('Company Name',           document.getElementById('c_company').value);
+    fd.append('Contact Person',         document.getElementById('c_name').value);
+    fd.append('Country',                countryFinal);
+    fd.append('Full Address',           document.getElementById('c_address').value);
+    fd.append('Customer Email',         document.getElementById('c_email').value);
+    fd.append('Phone Number',           document.getElementById('c_phone').value);
+    fd.append('Preferred Support Type', sup ? sup.value : '—');
+    fd.append('Additional Notes',       document.getElementById('f_notes').value);
+    uploadedFiles.forEach(f => fd.append('attachment', f));
+    try {
+      const res = await fetch(`https://formsubmit.co/ajax/${SERVICE_EMAIL}`, {
+        method: 'POST', headers: { 'Accept': 'application/json' }, body: fd
+      });
+      const result = await res.json();
+      if (result.success === 'true' || result.success === true) { showSuccess(); }
+      else throw new Error('FormSubmit failure');
+    } catch(e) {
+      btn.disabled = false; btn.textContent = 'Send Request ✉';
+      alert('⚠️ Submission failed. Please try again or contact us at ' + SERVICE_EMAIL);
+    }
+  });
+
+  function showSuccess() {
+    document.getElementById('navRow').style.display = 'none';
+    document.getElementById('progressSteps').parentElement.style.display = 'none';
+    document.querySelectorAll('.step-page').forEach(p => p.classList.remove('active'));
+    document.getElementById('step-success').classList.add('active');
+  }
+
+  showStep(0);
+</script>
+</body>
+</html>
